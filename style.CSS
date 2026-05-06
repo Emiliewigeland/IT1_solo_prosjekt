@@ -16,6 +16,8 @@
 
     body {
         background-image: url(bilder/bakgrunnsbilde.jpg);
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     header {
@@ -54,6 +56,8 @@
         gap: 20px;
         justify-content: center;
         margin-left: 100px;
+        
+       
     }
 
     .flagg-row {
@@ -92,4 +96,15 @@
         border-radius: 50px;  
     }
 
-  
+  .start-knapp{
+    width: 54%;
+    background-color: rgb(228, 186, 152);
+    font-size: 40px;
+    text-align: center;
+    box-shadow: 0 2px 10px black;
+    margin-top: 20px;
+  }
+
+  .start-knapp:hover{
+    box-shadow: 0 2px 10px rgb(208, 123, 43);
+  }

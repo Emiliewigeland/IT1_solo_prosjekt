@@ -41,7 +41,7 @@
 
  nav ul {
      list-style: none;
-     text-decoration: black;
+     
      display: flex;
      gap: 100px;
      align-items: center;

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style-2.css">
 </head>
+
 <body>
     <header>
         <div>
@@ -26,8 +28,113 @@
 
     <section class="container">
         <div id="timer">Time: <span id="tid">60</span>s</div>
-        <div id="questions"></div>
+        <p id="questions"></p>
         <div id="svar-btn"></div>
     </section>
+
+    <script>
+
+        let alleQuestion = [
+            {
+                question: "Hvilket tall kommer etter neste? 2, 4, 8, 16, ?",
+                svar: ["32", "24", "20", "18"],
+                riktig: "32"
+            },
+            {
+                question: "Hvilket ord hører ikke hjemme her? Høne, Bil, Ku, Hane",
+                svar: ["Bil", "Ku", "Høne", "Hane"],
+                riktig: "Bil"
+            },
+            {
+                question: "Hva er 15% av 200?",
+                svar: ["162", "87", "25", "30"],
+                riktig: "30"
+            },
+
+            {
+                question: "Hvilket tall kommer neste? 1, 3, 6, 10, ?",
+                svar: ["15", "13", "14", "12"],
+                riktig: "15"
+            },
+
+
+            {
+                question: "Hvilket ord er motsatsen til 'rask'?",
+                svar: ["Sakte", "Stor", "Hard", "Tung"],
+                riktig: "Sakte"
+            },
+
+            {
+                question: "Hvilket tall kommer neste? 100, 50, 25, ?",
+                svar: ["12.5", "10", "15", "20"],
+                riktig: "12.5"
+            },
+            {
+                question: "Hvilket ord hører ikke hjemme?",
+                svar: ["Eple", "Banan", "Gulrot", "Appelsin"],
+                riktig: "Gulrot"
+            },
+            {
+                question: "Hvis du har 3 epler og gir bort 1, hvor mange har du igjen?",
+                svar: ["2", "1", "3", "0"],
+                riktig: "2"
+            },
+            {
+                question: "Hvilket tall er størst? ",
+                svar: ["0.9", "0.09", "0.99", "0.009"],
+                riktig: "0.99"
+            },
+
+            {
+                question: "Hvilket tall kommer neste? 1, 3, 6, 10, ?",
+                svar: ["15", "13", "14", "12"],
+                riktig: "15"
+            }
+
+        ]
+
+        alleQuestion[0].question
+        alleQuestion[0].svar
+        alleQuestion[0].riktig
+
+
+
+
+        let i = 0
+        let poeng = 0
+
+        function visQuestion() {
+            let question = alleQuestion[i]
+            document.getElementById("questions").innerText = question.question
+
+            let svarBoks = document.getElementById("svar-btn")
+            svarBoks.innerHTML = ""
+
+            for (let j = 0; j < question.svar.length; j++) {
+                let knapp = document.createElement("button")
+                knapp.innerText = question.svar[j]
+                svarBoks.appendChild(knapp)
+
+
+                knapp.onclick = function () {
+                    if (knapp.innerText === question.riktig) {
+                        poeng++
+                    }
+                    i++
+                    visQuestion()
+                }
+            }
+        }
+
+
+        visQuestion()
+
+
+
+
+    </script>
+
 </body>
+
+
 </html>

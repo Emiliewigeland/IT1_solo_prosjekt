@@ -37,6 +37,12 @@
  .logo {
      font-size: 50px;
      margin-top: 40%;
+      transform: perspective(1000px);
+    transition: transform 1s;
+ }
+
+ .logo:hover{
+     transform: rotateY(90deg) rotateX(90deg)
  }
 
  nav ul {
@@ -60,9 +66,6 @@
     align-items: center;
     flex-direction: column;
     gap: 40px;
-
-    
-
  }
 
  .banner h1{
@@ -71,6 +74,7 @@
     box-shadow: 0 2px 10px black;
     display: flex;
     gap: 20px;
+
   
  }
 

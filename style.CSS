@@ -15,11 +15,11 @@
  }
 
  body {
-     background-image: url(bilder/bakgrunnsbilde.jpg);
+     background-image: url(bilder/bakgrunsbilde.jpg);
      background-size: cover;
      background-attachment: fixed;
-     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
  }
 
  header {
@@ -29,25 +29,24 @@
      align-items: center;
      justify-content: space-between;
      flex-direction: column;
-      color: rgb(0, 0, 0);
-      text-shadow: 0 2px 10px rgb(125, 75, 21);
-   
+     color: rgb(0, 0, 0);
+     text-shadow: 0 2px 10px rgb(125, 75, 21);
+
  }
 
  .logo {
      font-size: 50px;
      margin-top: 40%;
-      transform: perspective(1000px);
-    transition: transform 1s;
+     transform: perspective(1000px);
+     transition: transform 1s;
  }
 
- .logo:hover{
+ .logo:hover {
      transform: rotateY(90deg) rotateX(90deg)
  }
 
  nav ul {
      list-style: none;
-     
      display: flex;
      gap: 100px;
      align-items: center;
@@ -59,41 +58,42 @@
      color: rgb(223, 166, 150);
  }
 
- .banner{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
+ .banner {
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 40px;
  }
 
- .banner h1{
-    font-size: 100px;
-    padding: 10px;
-    box-shadow: 0 2px 10px black;
-    display: flex;
-    gap: 20px;
+ .banner h1 {
+     font-size: 100px;
+     padding: 10px;
+     box-shadow: 0 2px 10px black;
+     background: white;
+     display: flex;
+     gap: 20px;
 
-  
+
  }
 
- .bold{
-    font-weight: 200;
-    color: rgba(255, 85, 85, 0.7);
+ .bold {
+     font-weight: 200;
+     color: rgba(255, 85, 85, 0.7);
  }
 
- .banner img{
-    width: 120px;
+ .banner img {
+     width: 120px;
  }
 
- .banner h2{
-    border-bottom: solid black 2px;
-    color: rgb(201, 167, 119);
+ .banner h2 {
+     border-bottom: solid black 2px;
+     color: rgb(255, 255, 255);
  }
 
- .banner h2:hover{
-    color: rgb(0, 51, 255);
+ .banner h2:hover {
+     color: rgb(0, 51, 255);
  }
 
  .section1 {
@@ -111,10 +111,10 @@
      display: flex;
      align-items: center;
      gap: 10px;
-     border: solid white;
      width: 30%;
      padding: 20px;
-     box-shadow: 0 2px 10px black ;
+     background-color: white;
+     box-shadow: 0 2px 10px black;
  }
 
  .flagg-row img {
@@ -123,20 +123,23 @@
 
  h1 {
      font-size: 50px;
+     color: white;
  }
 
  h2 {
      font-weight: normal;
+     color: white;
  }
+
 
  .features {
      display: flex;
      flex-direction: column;
      gap: 20px;
-      border: solid white;
-      width: 400px;
-      padding: 20px;
-      box-shadow: 0 2px 10px black;
+     background: white;
+     width: 400px;
+     padding: 20px;
+     box-shadow: 0 2px 10px black;
  }
 
  .feature-item {
@@ -171,21 +174,21 @@
      height: 100vh;
  }
 
- .section2-header{
+ .section2-header {
      max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 60px;
+     margin: 0 auto;
+     text-align: center;
+     margin-bottom: 60px;
  }
 
  .section2-header h1 {
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-    border-bottom: solid rgb(230, 163, 112) 4px;
-    padding: 10px;
-    font-weight: normal;
-    font-size: 60px;
-}
+     margin-bottom: 20px;
+     color: rgb(0, 0, 0);
+     border-bottom: solid rgb(230, 163, 112) 4px;
+     padding: 10px;
+     font-weight: normal;
+     font-size: 60px;
+ }
 
  .body-section2 {
      display: flex;
@@ -211,15 +214,14 @@
      font-size: 20px;
  }
 
- footer{
-    height: 20vh;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ footer {
+     height: 20vh;
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
  }
 
  footer p {
-    font-size: 30px;
+     font-size: 30px;
  }
-

@@ -1,0 +1,1282 @@
+<!doctype html>
+<html lang="en-GB" prefix="og: https://ogp.me/ns#" class="no-js" itemtype="https://schema.org/Blog" itemscope>
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.4",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),o([])},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();</script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	
+<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+<title>Innovation Definition - Plus 15 Real-World Examples and More</title>
+<link data-rocket-prefetch href="https://buttons-config.sharethis.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://a.deadlinefunnel.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://snap.licdn.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://connect.facebook.net" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://fonts.googleapis.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://platform-api.sharethis.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://cxotransform.libsyn.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://cdn.convertbox.com" rel="dns-prefetch">
+<link data-rocket-preload as="style" href="https://fonts.googleapis.com/css?family=Telex%3Aregular%2C700%2C600%7CRubik%3A700%2Cregular%2C600%2C500%7CHeebo%3A500&#038;display=swap" rel="preload">
+<link href="https://fonts.googleapis.com/css?family=Telex%3Aregular%2C700%2C600%7CRubik%3A700%2Cregular%2C600%2C500%7CHeebo%3A500&#038;display=swap" media="print" onload="this.media=&#039;all&#039;" rel="stylesheet">
+<noscript data-wpr-hosted-gf-parameters=""><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Telex%3Aregular%2C700%2C600%7CRubik%3A700%2Cregular%2C600%2C500%7CHeebo%3A500&#038;display=swap"></noscript><link rel="preload" data-rocket-preload as="image" href="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition-1024x576.jpg" imagesrcset="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition-1024x576.jpg 1024w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition-300x169.jpg 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition-768x432.jpg 768w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition-1536x864.jpg 1536w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition.jpg 1920w" imagesizes="(max-width: 1024px) 100vw, 1024px" fetchpriority="high">
+<meta name="description" content="Innovation is about having the ability or inclination to create or introduce new and original ideas, methods, or products. It refers to the ability to think creatively and develop novel solutions to problems or opportunities."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://robllewellyn.com/innovation-definition/" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Innovation Definition - Plus 15 Real-World Examples and More" />
+<meta property="og:description" content="Innovation is about having the ability or inclination to create or introduce new and original ideas, methods, or products. It refers to the ability to think creatively and develop novel solutions to problems or opportunities." />
+<meta property="og:url" content="https://robllewellyn.com/innovation-definition/" />
+<meta property="og:site_name" content="robllewellyn.com" />
+<meta property="article:publisher" content="https://www.facebook.com/cxotransform/" />
+<meta property="article:section" content="Blog" />
+<meta property="og:updated_time" content="2024-05-04T17:38:53+02:00" />
+<meta property="og:image" content="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition.jpg" />
+<meta property="og:image:secure_url" content="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition.jpg" />
+<meta property="og:image:width" content="1920" />
+<meta property="og:image:height" content="1080" />
+<meta property="og:image:alt" content="Innovation Definition" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="article:published_time" content="2023-02-16T16:36:49+01:00" />
+<meta property="article:modified_time" content="2024-05-04T17:38:53+02:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Innovation Definition - Plus 15 Real-World Examples and More" />
+<meta name="twitter:description" content="Innovation is about having the ability or inclination to create or introduce new and original ideas, methods, or products. It refers to the ability to think creatively and develop novel solutions to problems or opportunities." />
+<meta name="twitter:site" content="@robertllewellyn" />
+<meta name="twitter:creator" content="@robertllewellyn" />
+<meta name="twitter:image" content="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition.jpg" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Rob Llewellyn" />
+<meta name="twitter:label2" content="Time to read" />
+<meta name="twitter:data2" content="18 minutes" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://robllewellyn.com/#person","name":"Sams","sameAs":["https://www.facebook.com/cxotransform/","https://twitter.com/robertllewellyn"],"logo":{"@type":"ImageObject","@id":"https://robllewellyn.com/#logo","url":"https://robllewellyn.com/wp-content/uploads/2020/05/Rob-Llewellyn.jpg","contentUrl":"https://robllewellyn.com/wp-content/uploads/2020/05/Rob-Llewellyn.jpg","caption":"robllewellyn.com","inLanguage":"en-GB","width":"500","height":"427"},"image":{"@type":"ImageObject","@id":"https://robllewellyn.com/#logo","url":"https://robllewellyn.com/wp-content/uploads/2020/05/Rob-Llewellyn.jpg","contentUrl":"https://robllewellyn.com/wp-content/uploads/2020/05/Rob-Llewellyn.jpg","caption":"robllewellyn.com","inLanguage":"en-GB","width":"500","height":"427"}},{"@type":"WebSite","@id":"https://robllewellyn.com/#website","url":"https://robllewellyn.com","name":"robllewellyn.com","publisher":{"@id":"https://robllewellyn.com/#person"},"inLanguage":"en-GB"},{"@type":"ImageObject","@id":"https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition.jpg","url":"https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition.jpg","width":"1920","height":"1080","caption":"Innovation Definition","inLanguage":"en-GB"},{"@type":"BreadcrumbList","@id":"https://robllewellyn.com/innovation-definition/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://robllewellyn.com","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://robllewellyn.com/innovation-definition/","name":"Innovation Definition &#8211; Plus 15 Real-World Examples and More"}}]},{"@type":"WebPage","@id":"https://robllewellyn.com/innovation-definition/#webpage","url":"https://robllewellyn.com/innovation-definition/","name":"Innovation Definition - Plus 15 Real-World Examples and More","datePublished":"2023-02-16T16:36:49+01:00","dateModified":"2024-05-04T17:38:53+02:00","isPartOf":{"@id":"https://robllewellyn.com/#website"},"primaryImageOfPage":{"@id":"https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition.jpg"},"inLanguage":"en-GB","breadcrumb":{"@id":"https://robllewellyn.com/innovation-definition/#breadcrumb"}},{"@type":"Person","@id":"https://robllewellyn.com/author/rob-llewellyncxotransform-com/","name":"Rob Llewellyn","url":"https://robllewellyn.com/author/rob-llewellyncxotransform-com/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/a1416085cd03d17c6a41bafefbed3366a8e3cd885715870ce42f1994a474470e?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/a1416085cd03d17c6a41bafefbed3366a8e3cd885715870ce42f1994a474470e?s=96&amp;d=mm&amp;r=g","caption":"Rob Llewellyn","inLanguage":"en-GB"}},{"@type":"BlogPosting","headline":"Innovation Definition - Plus 15 Real-World Examples and More","keywords":"innovation","datePublished":"2023-02-16T16:36:49+01:00","dateModified":"2024-05-04T17:38:53+02:00","author":{"@id":"https://robllewellyn.com/author/rob-llewellyncxotransform-com/","name":"Rob Llewellyn"},"publisher":{"@id":"https://robllewellyn.com/#person"},"description":"Innovation is about having the ability or inclination to create or introduce new and original ideas, methods, or products. It refers to the ability to think creatively and develop novel solutions to problems or opportunities.","name":"Innovation Definition - Plus 15 Real-World Examples and More","@id":"https://robllewellyn.com/innovation-definition/#richSnippet","isPartOf":{"@id":"https://robllewellyn.com/innovation-definition/#webpage"},"image":{"@id":"https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition.jpg"},"inLanguage":"en-GB","mainEntityOfPage":{"@id":"https://robllewellyn.com/innovation-definition/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//platform-api.sharethis.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Rob Llewellyn &raquo; Feed" href="https://robllewellyn.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Rob Llewellyn &raquo; Comments Feed" href="https://robllewellyn.com/comments/feed/" />
+			<script type="rocketlazyloadscript">document.documentElement.classList.remove( 'no-js' );</script>
+			<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://robllewellyn.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frobllewellyn.com%2Finnovation-definition%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://robllewellyn.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Frobllewellyn.com%2Finnovation-definition%2F&#038;format=xml" />
+
+<!-- LCSEO current path: innovation-definition -->
+<!-- LCSEO: no overrides found -->
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='wp-block-library-inline-css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='wp-block-heading-inline-css'>
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://robllewellyn.com/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id='wp-block-image-inline-css'>
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .close-button{align-items:center;cursor:pointer;display:flex;justify-content:center;min-height:40px;min-width:40px;padding:0;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .close-button:focus,.wp-lightbox-overlay .close-button:hover,.wp-lightbox-overlay .close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:9999999999}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://robllewellyn.com/wp-includes/blocks/image/style.min.css */
+</style>
+<style id='wp-block-embed-inline-css'>
+.wp-block-embed.alignleft,.wp-block-embed.alignright,.wp-block[data-align=left]>[data-type="core/embed"],.wp-block[data-align=right]>[data-type="core/embed"]{max-width:360px;width:100%}.wp-block-embed.alignleft .wp-block-embed__wrapper,.wp-block-embed.alignright .wp-block-embed__wrapper,.wp-block[data-align=left]>[data-type="core/embed"] .wp-block-embed__wrapper,.wp-block[data-align=right]>[data-type="core/embed"] .wp-block-embed__wrapper{min-width:280px}.wp-block-cover .wp-block-embed{min-height:240px;min-width:320px}.wp-block-embed{overflow-wrap:break-word}.wp-block-embed :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-embed iframe{max-width:100%}.wp-block-embed__wrapper{position:relative}.wp-embed-responsive .wp-has-aspect-ratio .wp-block-embed__wrapper:before{content:"";display:block;padding-top:50%}.wp-embed-responsive .wp-has-aspect-ratio iframe{bottom:0;height:100%;left:0;position:absolute;right:0;top:0;width:100%}.wp-embed-responsive .wp-embed-aspect-21-9 .wp-block-embed__wrapper:before{padding-top:42.85%}.wp-embed-responsive .wp-embed-aspect-18-9 .wp-block-embed__wrapper:before{padding-top:50%}.wp-embed-responsive .wp-embed-aspect-16-9 .wp-block-embed__wrapper:before{padding-top:56.25%}.wp-embed-responsive .wp-embed-aspect-4-3 .wp-block-embed__wrapper:before{padding-top:75%}.wp-embed-responsive .wp-embed-aspect-1-1 .wp-block-embed__wrapper:before{padding-top:100%}.wp-embed-responsive .wp-embed-aspect-9-16 .wp-block-embed__wrapper:before{padding-top:177.77%}.wp-embed-responsive .wp-embed-aspect-1-2 .wp-block-embed__wrapper:before{padding-top:200%}
+/*# sourceURL=https://robllewellyn.com/wp-includes/blocks/embed/style.min.css */
+</style>
+<style id='wp-block-paragraph-inline-css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://robllewellyn.com/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id='wp-block-quote-inline-css'>
+.wp-block-quote{box-sizing:border-box;overflow-wrap:break-word}.wp-block-quote.is-large:where(:not(.is-style-plain)),.wp-block-quote.is-style-large:where(:not(.is-style-plain)){margin-bottom:1em;padding:0 1em}.wp-block-quote.is-large:where(:not(.is-style-plain)) p,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) p{font-size:1.5em;font-style:italic;line-height:1.6}.wp-block-quote.is-large:where(:not(.is-style-plain)) cite,.wp-block-quote.is-large:where(:not(.is-style-plain)) footer,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) cite,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) footer{font-size:1.125em;text-align:right}.wp-block-quote>cite{display:block}
+/*# sourceURL=https://robllewellyn.com/wp-includes/blocks/quote/style.min.css */
+</style>
+<style id='wp-block-separator-inline-css'>
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=https://robllewellyn.com/wp-includes/blocks/separator/style.min.css */
+</style>
+
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--theme-palette-1: var(--global-palette1);--wp--preset--color--theme-palette-2: var(--global-palette2);--wp--preset--color--theme-palette-3: var(--global-palette3);--wp--preset--color--theme-palette-4: var(--global-palette4);--wp--preset--color--theme-palette-5: var(--global-palette5);--wp--preset--color--theme-palette-6: var(--global-palette6);--wp--preset--color--theme-palette-7: var(--global-palette7);--wp--preset--color--theme-palette-8: var(--global-palette8);--wp--preset--color--theme-palette-9: var(--global-palette9);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: var(--global-font-size-small);--wp--preset--font-size--medium: var(--global-font-size-medium);--wp--preset--font-size--large: var(--global-font-size-large);--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--larger: var(--global-font-size-larger);--wp--preset--font-size--xxlarge: var(--global-font-size-xxlarge);--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='inf-font-awesome-css' href='https://robllewellyn.com/wp-content/plugins/blog-designer-pack-pro/assets/css/font-awesome.min.css?ver=3.4.2.1' media='all' />
+<link rel='stylesheet' id='owl-carousel-css' href='https://robllewellyn.com/wp-content/plugins/blog-designer-pack-pro/assets/css/owl.carousel.min.css?ver=3.4.2.1' media='all' />
+<link rel='stylesheet' id='bdpp-public-style-css' href='https://robllewellyn.com/wp-content/plugins/blog-designer-pack-pro/assets/css/bdpp-public.min.css?ver=3.4.2.1' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://robllewellyn.com/wp-includes/css/dashicons.min.css?ver=6e48d50039b35d404b9872ac86ad0eea' media='all' />
+<link rel='stylesheet' id='LeadConnector-css' href='https://robllewellyn.com/wp-content/plugins/leadconnector/public/css/lc-public.css?ver=3.0.24' media='all' />
+<link rel='stylesheet' id='lc-theme-fixes-css' href='https://robllewellyn.com/wp-content/plugins/leadconnector/assets/css/theme-fixes.css?ver=1773943553' media='all' />
+<link rel='stylesheet' id='share-this-share-buttons-sticky-css' href='https://robllewellyn.com/wp-content/plugins/sharethis-share-buttons/css/mu-style.css?ver=1773944273' media='all' />
+<link rel='stylesheet' id='widgetkit-site-css' href='https://robllewellyn.com/wp-content/plugins/widgetkit/assets/css/site.css?ver=6e48d50039b35d404b9872ac86ad0eea' media='all' />
+<link rel='stylesheet' id='kadence-global-css' href='https://robllewellyn.com/wp-content/themes/kadence/assets/css/global.min.css?ver=1.2.21' media='all' />
+<style id='kadence-global-inline-css'>
+/* Kadence Base CSS */
+:root{--global-palette1:#cf0520;--global-palette2:#fb3c7f;--global-palette3:#0A1F41;--global-palette4:#6E747C;--global-palette5:#989898;--global-palette6:#d1d1d1;--global-palette7:#d8dee3;--global-palette8:#fff7f5;--global-palette9:#ffffff;--global-palette9rgb:255, 255, 255;--global-palette-highlight:#4386fc;--global-palette-highlight-alt:#1a73e8;--global-palette-highlight-alt2:var(--global-palette9);--global-palette-btn-bg:var(--global-palette1);--global-palette-btn-bg-hover:var(--global-palette2);--global-palette-btn:#ffffff;--global-palette-btn-hover:#ffffff;--global-body-font-family:Telex, sans-serif;--global-heading-font-family:Rubik, sans-serif;--global-primary-nav-font-family:Rubik, var(--global-fallback-font);--global-fallback-font:sans-serif;--global-display-fallback-font:sans-serif;--global-content-width:1170px;--global-content-wide-width:calc(1170px + 230px);--global-content-narrow-width:842px;--global-content-edge-padding:1.5rem;--global-content-boxed-padding:2rem;--global-calc-content-width:calc(1170px - var(--global-content-edge-padding) - var(--global-content-edge-padding) );--wp--style--global--content-size:var(--global-calc-content-width);}.wp-site-blocks{--global-vw:calc( 100vw - ( 0.5 * var(--scrollbar-offset)));}body{background:var(--global-palette8);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}body, input, select, optgroup, textarea{font-style:normal;font-weight:normal;font-size:17px;line-height:1.9;font-family:var(--global-body-font-family);color:var(--global-palette4);}.content-bg, body.content-style-unboxed .site{background:var(--global-palette9);}h1,h2,h3,h4,h5,h6{font-family:var(--global-heading-font-family);}h1{font-style:normal;font-weight:700;font-size:36px;line-height:1;color:var(--global-palette3);}h2{font-style:normal;font-weight:400;font-size:28px;color:var(--global-palette3);}h3{font-style:normal;font-weight:400;font-size:22px;line-height:1.5;color:var(--global-palette3);}h4{font-style:normal;font-weight:600;font-size:18px;line-height:1.5;color:var(--global-palette4);}h5{font-style:normal;font-weight:700;font-size:20px;line-height:1.5;color:var(--global-palette4);}h6{font-style:normal;font-weight:700;font-size:18px;line-height:1.5;color:var(--global-palette5);}.entry-hero h1{font-style:normal;}.entry-hero .kadence-breadcrumbs{max-width:1170px;}.site-container, .site-header-row-layout-contained, .site-footer-row-layout-contained, .entry-hero-layout-contained, .comments-area, .alignfull > .wp-block-cover__inner-container, .alignwide > .wp-block-cover__inner-container{max-width:var(--global-content-width);}.content-width-narrow .content-container.site-container, .content-width-narrow .hero-container.site-container{max-width:var(--global-content-narrow-width);}@media all and (min-width: 1400px){.wp-site-blocks .content-container  .alignwide{margin-left:-115px;margin-right:-115px;width:unset;max-width:unset;}}@media all and (min-width: 1102px){.content-width-narrow .wp-site-blocks .content-container .alignwide{margin-left:-130px;margin-right:-130px;width:unset;max-width:unset;}}.content-style-boxed .wp-site-blocks .entry-content .alignwide{margin-left:calc( -1 * var( --global-content-boxed-padding ) );margin-right:calc( -1 * var( --global-content-boxed-padding ) );}.content-area{margin-top:5rem;margin-bottom:5rem;}@media all and (max-width: 1024px){.content-area{margin-top:3rem;margin-bottom:3rem;}}@media all and (max-width: 767px){.content-area{margin-top:2rem;margin-bottom:2rem;}}@media all and (max-width: 1024px){:root{--global-content-boxed-padding:2rem;}}@media all and (max-width: 767px){:root{--global-content-boxed-padding:1.5rem;}}.entry-content-wrap{padding:2rem;}@media all and (max-width: 1024px){.entry-content-wrap{padding:2rem;}}@media all and (max-width: 767px){.entry-content-wrap{padding:1.5rem;}}.entry.single-entry{box-shadow:0px 15px 15px -10px rgba(0,0,0,0.05);}.entry.loop-entry{box-shadow:0px 15px 15px -10px rgba(0,0,0,0.05);}.loop-entry .entry-content-wrap{padding:2rem;}@media all and (max-width: 1024px){.loop-entry .entry-content-wrap{padding:2rem;}}@media all and (max-width: 767px){.loop-entry .entry-content-wrap{padding:1.5rem;}}.primary-sidebar.widget-area .widget{margin-bottom:1.5em;color:var(--global-palette4);}.primary-sidebar.widget-area .widget-title{font-weight:700;font-size:20px;line-height:1.5;color:var(--global-palette3);}button, .button, .wp-block-button__link, input[type="button"], input[type="reset"], input[type="submit"], .fl-button, .elementor-button-wrapper .elementor-button, .wc-block-components-checkout-place-order-button, .wc-block-cart__submit{box-shadow:0px 0px 0px -7px rgba(0,0,0,0);}button:hover, button:focus, button:active, .button:hover, .button:focus, .button:active, .wp-block-button__link:hover, .wp-block-button__link:focus, .wp-block-button__link:active, input[type="button"]:hover, input[type="button"]:focus, input[type="button"]:active, input[type="reset"]:hover, input[type="reset"]:focus, input[type="reset"]:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active, .elementor-button-wrapper .elementor-button:hover, .elementor-button-wrapper .elementor-button:focus, .elementor-button-wrapper .elementor-button:active, .wc-block-cart__submit:hover{box-shadow:0px 15px 25px -7px rgba(0,0,0,0.1);}.kb-button.kb-btn-global-outline.kb-btn-global-inherit{padding-top:calc(px - 2px);padding-right:calc(px - 2px);padding-bottom:calc(px - 2px);padding-left:calc(px - 2px);}@media all and (min-width: 1025px){.transparent-header .entry-hero .entry-hero-container-inner{padding-top:110px;}}@media all and (max-width: 1024px){.mobile-transparent-header .entry-hero .entry-hero-container-inner{padding-top:110px;}}@media all and (max-width: 767px){.mobile-transparent-header .entry-hero .entry-hero-container-inner{padding-top:110px;}}#kt-scroll-up-reader, #kt-scroll-up{border-radius:120px 120px 120px 120px;bottom:30px;font-size:1.2em;padding:0.4em 0.4em 0.4em 0.4em;}#kt-scroll-up-reader.scroll-up-side-right, #kt-scroll-up.scroll-up-side-right{right:30px;}#kt-scroll-up-reader.scroll-up-side-left, #kt-scroll-up.scroll-up-side-left{left:30px;}.entry-author-style-center{padding-top:var(--global-md-spacing);border-top:1px solid var(--global-gray-500);}.entry-author-style-center .entry-author-avatar, .entry-meta .author-avatar{display:none;}.entry-author-style-normal .entry-author-profile{padding-left:0px;}#comments .comment-meta{margin-left:0px;}.wp-site-blocks .post-title h1{font-style:normal;font-weight:400;font-size:40px;line-height:1.25;font-family:Helvetica, sans-serif;text-transform:capitalize;color:var(--global-palette7);}@media all and (max-width: 1024px){.wp-site-blocks .post-title h1{font-size:60px;}}@media all and (max-width: 767px){.wp-site-blocks .post-title h1{font-size:30px;}}.post-title .entry-meta{font-style:normal;font-size:15px;color:#0a1f41;}.post-title .title-entry-excerpt{color:#0a1f41;}.post-hero-section .entry-hero-container-inner{background:var(--global-palette3);}.entry-hero.post-hero-section .entry-header{min-height:120px;}.post-hero-section .hero-section-overlay{background:rgba(255,255,255,0);}@media all and (max-width: 1024px){.entry-hero.post-hero-section .entry-header{min-height:250px;}}@media all and (max-width: 767px){.entry-hero.post-hero-section .entry-header{min-height:250px;}}.loop-entry.type-post h2.entry-title{font-style:normal;font-weight:normal;font-size:30px;line-height:1.3;text-transform:none;color:var(--global-palette3);}
+/* Kadence Header CSS */
+@media all and (max-width: 1024px){.mobile-transparent-header #masthead{position:absolute;left:0px;right:0px;z-index:100;}.kadence-scrollbar-fixer.mobile-transparent-header #masthead{right:var(--scrollbar-offset,0);}.mobile-transparent-header #masthead, .mobile-transparent-header .site-top-header-wrap .site-header-row-container-inner, .mobile-transparent-header .site-main-header-wrap .site-header-row-container-inner, .mobile-transparent-header .site-bottom-header-wrap .site-header-row-container-inner{background:transparent;}.site-header-row-tablet-layout-fullwidth, .site-header-row-tablet-layout-standard{padding:0px;}}@media all and (min-width: 1025px){.transparent-header #masthead{position:absolute;left:0px;right:0px;z-index:100;}.transparent-header.kadence-scrollbar-fixer #masthead{right:var(--scrollbar-offset,0);}.transparent-header #masthead, .transparent-header .site-top-header-wrap .site-header-row-container-inner, .transparent-header .site-main-header-wrap .site-header-row-container-inner, .transparent-header .site-bottom-header-wrap .site-header-row-container-inner{background:transparent;}}.site-branding a.brand img{max-width:146px;}.site-branding a.brand img.svg-logo-image{width:146px;}.site-branding{padding:0px 0px 0px 0px;}#masthead, #masthead .kadence-sticky-header.item-is-fixed:not(.item-at-start):not(.site-header-row-container):not(.site-main-header-wrap), #masthead .kadence-sticky-header.item-is-fixed:not(.item-at-start) > .site-header-row-container-inner{background:#ffffff;}.site-main-header-wrap .site-header-row-container-inner{border-top:0px none transparent;border-bottom:1px solid rgba(110,116,124,0.2);}.site-main-header-inner-wrap{min-height:110px;}.header-navigation[class*="header-navigation-style-underline"] .header-menu-container.primary-menu-container>ul>li>a:after{width:calc( 100% - 1.5em);}.main-navigation .primary-menu-container > ul > li.menu-item > a{padding-left:calc(1.5em / 2);padding-right:calc(1.5em / 2);padding-top:1.04em;padding-bottom:1.04em;color:#0a1f41;}.main-navigation .primary-menu-container > ul > li.menu-item .dropdown-nav-special-toggle{right:calc(1.5em / 2);}.main-navigation .primary-menu-container > ul li.menu-item > a{font-style:normal;font-weight:normal;letter-spacing:0.03em;font-family:var(--global-primary-nav-font-family);}.main-navigation .primary-menu-container > ul > li.menu-item > a:hover{color:var(--global-palette2);}.main-navigation .primary-menu-container > ul > li.menu-item.current-menu-item > a{color:var(--global-palette1);}.header-navigation .header-menu-container ul ul.sub-menu, .header-navigation .header-menu-container ul ul.submenu{background:var(--global-palette9);box-shadow:0px 2px 13px 0px rgba(0,0,0,0.1);}.header-navigation .header-menu-container ul ul li.menu-item, .header-menu-container ul.menu > li.kadence-menu-mega-enabled > ul > li.menu-item > a{border-bottom:1px solid rgba(255,255,255,0.1);}.header-navigation .header-menu-container ul ul li.menu-item > a{width:200px;padding-top:1em;padding-bottom:1em;color:var(--global-palette3);font-style:normal;font-size:15px;}.header-navigation .header-menu-container ul ul li.menu-item > a:hover{color:#4386fc;background:var(--global-palette8);}.header-navigation .header-menu-container ul ul li.menu-item.current-menu-item > a{color:#4386fc;background:var(--global-palette8);}.mobile-toggle-open-container .menu-toggle-open, .mobile-toggle-open-container .menu-toggle-open:focus{color:var(--global-palette3);padding:0.4em 0.6em 0.4em 0.6em;font-size:14px;}.mobile-toggle-open-container .menu-toggle-open.menu-toggle-style-bordered{border:1px solid currentColor;}.mobile-toggle-open-container .menu-toggle-open .menu-toggle-icon{font-size:20px;}.mobile-toggle-open-container .menu-toggle-open:hover, .mobile-toggle-open-container .menu-toggle-open:focus-visible{color:var(--global-palette-highlight);}.mobile-navigation ul li{font-style:normal;font-size:20px;}.mobile-navigation ul li a{padding-top:1em;padding-bottom:1em;}.mobile-navigation ul li > a, .mobile-navigation ul li.menu-item-has-children > .drawer-nav-drop-wrap{color:var(--global-palette8);}.mobile-navigation ul li > a:hover, .mobile-navigation ul li.menu-item-has-children > .drawer-nav-drop-wrap:hover{color:#4386fc;}.mobile-navigation ul li.current-menu-item > a, .mobile-navigation ul li.current-menu-item.menu-item-has-children > .drawer-nav-drop-wrap{color:var(--global-palette6);}.mobile-navigation ul li.menu-item-has-children .drawer-nav-drop-wrap, .mobile-navigation ul li:not(.menu-item-has-children) a{border-bottom:1px solid rgba(255,255,255,0.1);}.mobile-navigation:not(.drawer-navigation-parent-toggle-true) ul li.menu-item-has-children .drawer-nav-drop-wrap button{border-left:1px solid rgba(255,255,255,0.1);}#mobile-drawer .drawer-header .drawer-toggle{padding:0.6em 0.15em 0.6em 0.15em;font-size:24px;}#main-header .header-button{font-style:normal;font-weight:500;font-family:Rubik, var(--global-fallback-font);margin:0px 0px 0px 10px;border-radius:6px 6px 6px 6px;color:#ffffff;border:2px none transparent;box-shadow:0px 0px 0px -7px rgba(0,0,0,0);}#main-header .header-button.button-size-custom{padding:10px 20px 10px 20px;}#main-header .header-button:hover{color:#ffffff;box-shadow:0px 15px 25px -7px rgba(0,0,0,0.1);}
+/* Kadence Footer CSS */
+#colophon{background:var(--global-palette3);}.site-middle-footer-wrap .site-footer-row-container-inner{border-top:1px solid var(--global-palette6);}.site-middle-footer-inner-wrap{padding-top:30px;padding-bottom:30px;grid-column-gap:30px;grid-row-gap:30px;}.site-middle-footer-inner-wrap .widget{margin-bottom:30px;}.site-middle-footer-inner-wrap .widget-area .widget-title{font-style:normal;text-transform:none;}.site-middle-footer-inner-wrap .site-footer-section:not(:last-child):after{right:calc(-30px / 2);}@media all and (max-width: 1024px){.site-middle-footer-inner-wrap{padding-top:20px;padding-bottom:30px;grid-column-gap:0px;grid-row-gap:0px;}.site-middle-footer-inner-wrap .site-footer-section:not(:last-child):after{right:calc(-0px / 2);}}.site-top-footer-wrap .site-footer-row-container-inner{font-style:normal;color:var(--global-palette6);}.site-footer .site-top-footer-wrap a:not(.button):not(.wp-block-button__link):not(.wp-element-button){color:var(--global-palette6);}.site-footer .site-top-footer-wrap a:not(.button):not(.wp-block-button__link):not(.wp-element-button):hover{color:var(--global-palette1);}.site-top-footer-inner-wrap{padding-top:110px;padding-bottom:60px;grid-column-gap:26px;grid-row-gap:26px;}.site-top-footer-inner-wrap .widget{margin-bottom:30px;}.site-top-footer-inner-wrap .widget-area .widget-title{font-style:normal;font-weight:500;font-family:Heebo, var(--global-fallback-font);text-transform:none;color:var(--global-palette9);}.site-top-footer-inner-wrap .site-footer-section:not(:last-child):after{right:calc(-26px / 2);}@media all and (max-width: 1024px){.site-top-footer-inner-wrap{padding-top:60px;padding-bottom:30px;grid-column-gap:20px;grid-row-gap:20px;}.site-top-footer-inner-wrap .site-footer-section:not(:last-child):after{right:calc(-20px / 2);}}.footer-social-wrap .footer-social-inner-wrap{font-size:1em;gap:0.3em;}.site-footer .site-footer-wrap .site-footer-section .footer-social-wrap .footer-social-inner-wrap .social-button{color:var(--global-palette3);background:var(--global-palette6);border:2px none transparent;border-radius:3px;}.site-footer .site-footer-wrap .site-footer-section .footer-social-wrap .footer-social-inner-wrap .social-button:hover{color:var(--global-palette9);background:var(--global-palette1);}#colophon .footer-html{font-style:normal;font-size:13px;color:var(--global-palette6);}#colophon .site-footer-row-container .site-footer-row .footer-html a{color:var(--global-palette9);}#colophon .site-footer-row-container .site-footer-row .footer-html a:hover{color:var(--global-palette1);}
+/* Kadence Pro Header CSS */
+.header-navigation-dropdown-direction-left ul ul.submenu, .header-navigation-dropdown-direction-left ul ul.sub-menu{right:0px;left:auto;}.rtl .header-navigation-dropdown-direction-right ul ul.submenu, .rtl .header-navigation-dropdown-direction-right ul ul.sub-menu{left:0px;right:auto;}.header-account-button .nav-drop-title-wrap > .kadence-svg-iconset, .header-account-button > .kadence-svg-iconset{font-size:1.2em;}.site-header-item .header-account-button .nav-drop-title-wrap, .site-header-item .header-account-wrap > .header-account-button{display:flex;align-items:center;}.header-account-style-icon_label .header-account-label{padding-left:5px;}.header-account-style-label_icon .header-account-label{padding-right:5px;}.site-header-item .header-account-wrap .header-account-button{text-decoration:none;box-shadow:none;color:inherit;background:transparent;padding:0.6em 0em 0.6em 0em;}.header-mobile-account-wrap .header-account-button .nav-drop-title-wrap > .kadence-svg-iconset, .header-mobile-account-wrap .header-account-button > .kadence-svg-iconset{font-size:1.2em;}.header-mobile-account-wrap .header-account-button .nav-drop-title-wrap, .header-mobile-account-wrap > .header-account-button{display:flex;align-items:center;}.header-mobile-account-wrap.header-account-style-icon_label .header-account-label{padding-left:5px;}.header-mobile-account-wrap.header-account-style-label_icon .header-account-label{padding-right:5px;}.header-mobile-account-wrap .header-account-button{text-decoration:none;box-shadow:none;color:inherit;background:transparent;padding:0.6em 0em 0.6em 0em;}#login-drawer .drawer-inner .drawer-content{display:flex;justify-content:center;align-items:center;position:absolute;top:0px;bottom:0px;left:0px;right:0px;padding:0px;}#loginform p label{display:block;}#login-drawer #loginform{width:100%;}#login-drawer #loginform input{width:100%;}#login-drawer #loginform input[type="checkbox"]{width:auto;}#login-drawer .drawer-inner .drawer-header{position:relative;z-index:100;}#login-drawer .drawer-content_inner.widget_login_form_inner{padding:2em;width:100%;max-width:350px;border-radius:.25rem;background:var(--global-palette9);color:var(--global-palette4);}#login-drawer .lost_password a{color:var(--global-palette6);}#login-drawer .lost_password, #login-drawer .register-field{text-align:center;}#login-drawer .widget_login_form_inner p{margin-top:1.2em;margin-bottom:0em;}#login-drawer .widget_login_form_inner p:first-child{margin-top:0em;}#login-drawer .widget_login_form_inner label{margin-bottom:0.5em;}#login-drawer hr.register-divider{margin:1.2em 0;border-width:1px;}#login-drawer .register-field{font-size:90%;}@media all and (min-width: 1025px){#login-drawer hr.register-divider.hide-desktop{display:none;}#login-drawer p.register-field.hide-desktop{display:none;}}@media all and (max-width: 1024px){#login-drawer hr.register-divider.hide-mobile{display:none;}#login-drawer p.register-field.hide-mobile{display:none;}}@media all and (max-width: 767px){#login-drawer hr.register-divider.hide-mobile{display:none;}#login-drawer p.register-field.hide-mobile{display:none;}}.tertiary-navigation .tertiary-menu-container > ul > li.menu-item > a{padding-left:calc(1.2em / 2);padding-right:calc(1.2em / 2);padding-top:0.6em;padding-bottom:0.6em;color:var(--global-palette5);}.tertiary-navigation .tertiary-menu-container > ul > li.menu-item > a:hover{color:var(--global-palette-highlight);}.tertiary-navigation .tertiary-menu-container > ul > li.menu-item.current-menu-item > a{color:var(--global-palette3);}.header-navigation[class*="header-navigation-style-underline"] .header-menu-container.tertiary-menu-container>ul>li>a:after{width:calc( 100% - 1.2em);}.quaternary-navigation .quaternary-menu-container > ul > li.menu-item > a{padding-left:calc(1.2em / 2);padding-right:calc(1.2em / 2);padding-top:0.6em;padding-bottom:0.6em;color:var(--global-palette5);}.quaternary-navigation .quaternary-menu-container > ul > li.menu-item > a:hover{color:var(--global-palette-highlight);}.quaternary-navigation .quaternary-menu-container > ul > li.menu-item.current-menu-item > a{color:var(--global-palette3);}.header-navigation[class*="header-navigation-style-underline"] .header-menu-container.quaternary-menu-container>ul>li>a:after{width:calc( 100% - 1.2em);}#main-header .header-divider{border-right:1px solid var(--global-palette6);height:50%;}#main-header .header-divider2{border-right:1px solid var(--global-palette6);height:50%;}#main-header .header-divider3{border-right:1px solid var(--global-palette6);height:50%;}#mobile-header .header-mobile-divider, #mobile-drawer .header-mobile-divider{border-right:1px solid var(--global-palette6);height:50%;}#mobile-drawer .header-mobile-divider{border-top:1px solid var(--global-palette6);width:50%;}#mobile-header .header-mobile-divider2{border-right:1px solid var(--global-palette6);height:50%;}#mobile-drawer .header-mobile-divider2{border-top:1px solid var(--global-palette6);width:50%;}.header-item-search-bar form ::-webkit-input-placeholder{color:currentColor;opacity:0.5;}.header-item-search-bar form ::placeholder{color:currentColor;opacity:0.5;}.header-search-bar form{max-width:100%;width:240px;}.header-mobile-search-bar form{max-width:calc(100vw - var(--global-sm-spacing) - var(--global-sm-spacing));width:240px;}.header-widget-lstyle-normal .header-widget-area-inner a:not(.button){text-decoration:underline;}.element-contact-inner-wrap{display:flex;flex-wrap:wrap;align-items:center;margin-top:-0.6em;margin-left:calc(-0.6em / 2);margin-right:calc(-0.6em / 2);}.element-contact-inner-wrap .header-contact-item{display:inline-flex;flex-wrap:wrap;align-items:center;margin-top:0.6em;margin-left:calc(0.6em / 2);margin-right:calc(0.6em / 2);}.element-contact-inner-wrap .header-contact-item .kadence-svg-iconset{font-size:1em;}.header-contact-item img{display:inline-block;}.header-contact-item .contact-label{margin-left:0.3em;}.rtl .header-contact-item .contact-label{margin-right:0.3em;margin-left:0px;}.header-mobile-contact-wrap .element-contact-inner-wrap{display:flex;flex-wrap:wrap;align-items:center;margin-top:-0.6em;margin-left:calc(-0.6em / 2);margin-right:calc(-0.6em / 2);}.header-mobile-contact-wrap .element-contact-inner-wrap .header-contact-item{display:inline-flex;flex-wrap:wrap;align-items:center;margin-top:0.6em;margin-left:calc(0.6em / 2);margin-right:calc(0.6em / 2);}.header-mobile-contact-wrap .element-contact-inner-wrap .header-contact-item .kadence-svg-iconset{font-size:1em;}#main-header .header-button2{box-shadow:0px 0px 0px -7px rgba(0,0,0,0);}#main-header .header-button2:hover{box-shadow:0px 15px 25px -7px rgba(0,0,0,0.1);}.mobile-header-button2-wrap .mobile-header-button-inner-wrap .mobile-header-button2{border:2px none transparent;box-shadow:0px 0px 0px -7px rgba(0,0,0,0);}.mobile-header-button2-wrap .mobile-header-button-inner-wrap .mobile-header-button2:hover{box-shadow:0px 15px 25px -7px rgba(0,0,0,0.1);}#widget-drawer.popup-drawer-layout-fullwidth .drawer-content .header-widget2, #widget-drawer.popup-drawer-layout-sidepanel .drawer-inner{max-width:400px;}#widget-drawer.popup-drawer-layout-fullwidth .drawer-content .header-widget2{margin:0 auto;}.widget-toggle-open{display:flex;align-items:center;background:transparent;box-shadow:none;}.widget-toggle-open:hover, .widget-toggle-open:focus{border-color:currentColor;background:transparent;box-shadow:none;}.widget-toggle-open .widget-toggle-icon{display:flex;}.widget-toggle-open .widget-toggle-label{padding-right:5px;}.rtl .widget-toggle-open .widget-toggle-label{padding-left:5px;padding-right:0px;}.widget-toggle-open .widget-toggle-label:empty, .rtl .widget-toggle-open .widget-toggle-label:empty{padding-right:0px;padding-left:0px;}.widget-toggle-open-container .widget-toggle-open{color:var(--global-palette5);padding:0.4em 0.6em 0.4em 0.6em;font-size:14px;}.widget-toggle-open-container .widget-toggle-open.widget-toggle-style-bordered{border:1px solid currentColor;}.widget-toggle-open-container .widget-toggle-open .widget-toggle-icon{font-size:20px;}.widget-toggle-open-container .widget-toggle-open:hover, .widget-toggle-open-container .widget-toggle-open:focus{color:var(--global-palette-highlight);}#widget-drawer .header-widget-2style-normal a:not(.button){text-decoration:underline;}#widget-drawer .header-widget-2style-plain a:not(.button){text-decoration:none;}#widget-drawer .header-widget2 .widget-title{color:var(--global-palette9);}#widget-drawer .header-widget2{color:var(--global-palette8);}#widget-drawer .header-widget2 a:not(.button), #widget-drawer .header-widget2 .drawer-sub-toggle{color:var(--global-palette8);}#widget-drawer .header-widget2 a:not(.button):hover, #widget-drawer .header-widget2 .drawer-sub-toggle:hover{color:var(--global-palette9);}#mobile-secondary-site-navigation ul li{font-size:14px;}#mobile-secondary-site-navigation ul li a{padding-top:1em;padding-bottom:1em;}#mobile-secondary-site-navigation ul li > a, #mobile-secondary-site-navigation ul li.menu-item-has-children > .drawer-nav-drop-wrap{color:var(--global-palette8);}#mobile-secondary-site-navigation ul li.current-menu-item > a, #mobile-secondary-site-navigation ul li.current-menu-item.menu-item-has-children > .drawer-nav-drop-wrap{color:var(--global-palette-highlight);}#mobile-secondary-site-navigation ul li.menu-item-has-children .drawer-nav-drop-wrap, #mobile-secondary-site-navigation ul li:not(.menu-item-has-children) a{border-bottom:1px solid rgba(255,255,255,0.1);}#mobile-secondary-site-navigation:not(.drawer-navigation-parent-toggle-true) ul li.menu-item-has-children .drawer-nav-drop-wrap button{border-left:1px solid rgba(255,255,255,0.1);}
+/*# sourceURL=kadence-global-inline-css */
+</style>
+<link rel='stylesheet' id='kadence-header-css' href='https://robllewellyn.com/wp-content/themes/kadence/assets/css/header.min.css?ver=1.2.21' media='all' />
+<link rel='stylesheet' id='kadence-content-css' href='https://robllewellyn.com/wp-content/themes/kadence/assets/css/content.min.css?ver=1.2.21' media='all' />
+<link rel='stylesheet' id='kadence-sidebar-css' href='https://robllewellyn.com/wp-content/themes/kadence/assets/css/sidebar.min.css?ver=1.2.21' media='all' />
+<link rel='stylesheet' id='kadence-footer-css' href='https://robllewellyn.com/wp-content/themes/kadence/assets/css/footer.min.css?ver=1.2.21' media='all' />
+<link rel='stylesheet' id='menu-addons-css' href='https://robllewellyn.com/wp-content/plugins/kadence-pro/dist/mega-menu/menu-addon.css?ver=1.1.19' media='all' />
+<link rel='stylesheet' id='kadence-rankmath-css' href='https://robllewellyn.com/wp-content/themes/kadence/assets/css/rankmath.min.css?ver=1.2.21' media='all' />
+<style id='kadence-blocks-global-variables-inline-css'>
+:root {--global-kb-font-size-sm:clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem);--global-kb-font-size-md:clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem);--global-kb-font-size-lg:clamp(1.75rem, 1.576rem + 0.543vw, 2rem);--global-kb-font-size-xl:clamp(2.25rem, 1.728rem + 1.63vw, 3rem);--global-kb-font-size-xxl:clamp(2.5rem, 1.456rem + 3.26vw, 4rem);--global-kb-font-size-xxxl:clamp(2.75rem, 0.489rem + 7.065vw, 6rem);}
+/*# sourceURL=kadence-blocks-global-variables-inline-css */
+</style>
+<script type="rocketlazyloadscript" data-rocket-src="//platform-api.sharethis.com/js/sharethis.js?ver=2.3.6#property=6364e2adbdc1a20013080432&amp;product=-buttons&amp;source=sharethis-share-buttons-wordpress" id="share-this-share-buttons-mu-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://robllewellyn.com/wp-content/plugins/widgetkit/assets/lib/uikit/dist/js/uikit.min.js?ver=6e48d50039b35d404b9872ac86ad0eea" id="uikit-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://robllewellyn.com/wp-content/plugins/widgetkit/assets/lib/uikit/dist/js/uikit-icons.min.js?ver=6e48d50039b35d404b9872ac86ad0eea" id="uikit-icons-js" data-rocket-defer defer></script>
+<link rel="https://api.w.org/" href="https://robllewellyn.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://robllewellyn.com/wp-json/wp/v2/posts/20220" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://robllewellyn.com/xmlrpc.php?rsd" />
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">!function(e,t){(e=t.createElement("script")).src="https://cdn.convertbox.com/convertbox/js/embed.js",e.id="app-convertbox-script",e.async=true,e.dataset.uuid="18c9a0c5-f9c0-479c-af93-f3849f430f97",document.getElementsByTagName("head")[0].appendChild(e)}(window,document);</script>
+<script type="rocketlazyloadscript">var cb_wp=cb_wp || {};cb_wp.is_user_logged_in=false;cb_wp.post_data={"id":20220,"tags":[],"post_type":"post","cats":[1]};</script><meta name="generator" content="Site Kit by Google 1.178.0" /><!-- Facebook Pixel Code -->
+<script type="rocketlazyloadscript">
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1714390552150392');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1714390552150392&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<meta name="facebook-domain-verification" content="qjj9g96aqhpt5lyj88nn3ctaud3lj9" />
+
+<meta name="google-site-verification" content="GUDVM8MPvAviijjQvb-GEp03B2wqyOzLdJr261GKRV0" /><link rel="alternate" type="application/rss+xml" title="Transformation Management" href="https://cxotransform.libsyn.com/rss">
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+_linkedin_partner_id = "227850";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=227850&fmt=gif" />
+</noscript>
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+_linkedin_partner_id = "625249";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=625249&fmt=gif" />
+</noscript>
+
+ <meta name="ahrefs-site-verification" content="5884b246c70f433ef23382b29a91dfe577ad6dc3d590c4ea6ab675c8e66e0897">
+<meta name="generator" content="WP Rocket 3.20.2" data-wpr-features="wpr_delay_js wpr_defer_js wpr_preconnect_external_domains wpr_oci wpr_cdn wpr_preload_links wpr_desktop" /></head>
+
+<body data-rsssl=1 class="wp-singular post-template-default single single-post postid-20220 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-kadence footer-on-bottom hide-focus-outline link-style-standard has-sidebar content-title-style-above content-width-normal content-style-unboxed content-vertical-padding-show non-transparent-header mobile-non-transparent-header">
+<div  id="wrapper" class="site wp-site-blocks">
+			<a class="skip-link screen-reader-text scroll-ignore" href="#main">Skip to content</a>
+		<header  id="masthead" class="site-header" role="banner" itemtype="https://schema.org/WPHeader" itemscope>
+	<div  id="main-header" class="site-header-wrap">
+		<div class="site-header-inner-wrap">
+			<div class="site-header-upper-wrap">
+				<div class="site-header-upper-inner-wrap">
+					<div class="site-main-header-wrap site-header-row-container site-header-focus-item site-header-row-layout-contained" data-section="kadence_customizer_header_main">
+	<div class="site-header-row-container-inner">
+				<div class="site-container">
+			<div class="site-main-header-inner-wrap site-header-row site-header-row-has-sides site-header-row-no-center">
+									<div class="site-header-main-section-left site-header-section site-header-section-left">
+						<div class="site-header-item site-header-focus-item" data-section="title_tagline">
+	<div class="site-branding branding-layout-standard site-brand-logo-only"><a class="brand has-logo-image" href="https://robllewellyn.com/" rel="home"><img width="400" height="184" src="https://robllewellyn.com/wp-content/uploads/2023/02/cropped-rob-llewellyn-logo-black-400-2.png" class="custom-logo" alt="Rob Llewellyn" decoding="async" fetchpriority="high" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/cropped-rob-llewellyn-logo-black-400-2.png 400w, https://robllewellyn.com/wp-content/uploads/2023/02/cropped-rob-llewellyn-logo-black-400-2-300x138.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></a></div></div><!-- data-section="title_tagline" -->
+					</div>
+																	<div class="site-header-main-section-right site-header-section site-header-section-right">
+						<div class="site-header-item site-header-focus-item site-header-item-main-navigation header-navigation-layout-stretch-false header-navigation-layout-fill-stretch-false" data-section="kadence_customizer_primary_navigation">
+	    <nav id="site-navigation" class="main-navigation header-navigation hover-to-open nav--toggle-sub header-navigation-style-standard header-navigation-dropdown-animation-fade-up" role="navigation" aria-label="Primary Navigation">
+            <div class="primary-menu-container header-menu-container">
+    <ul id="primary-menu" class="menu"><li id="menu-item-21344" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21344"><a href="https://courses.cxotransform.com">Career Pathways</a></li>
+<li id="menu-item-20182" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20182"><a href="https://robllewellyn.com/posts/">Articles</a></li>
+<li id="menu-item-21473" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21473"><a href="https://cxo.fm/news">Newsletter</a></li>
+</ul>        </div>
+    </nav><!-- #site-navigation -->
+    </div><!-- data-section="primary_navigation" -->
+<div class="site-header-item site-header-focus-item" data-section="kadence_customizer_header_button">
+	<div class="header-button-wrap"><div class="header-button-inner-wrap"><a href="https://www.youtube.com/@cxofm" target="_blank" rel="noopener noreferrer" class="button header-button button-size-custom button-style-filled">YouTube</a></div></div></div><!-- data-section="header_button" -->
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+				</div>
+			</div>
+					</div>
+	</div>
+	
+<div  id="mobile-header" class="site-mobile-header-wrap">
+	<div class="site-header-inner-wrap">
+		<div class="site-header-upper-wrap">
+			<div class="site-header-upper-inner-wrap">
+			<div class="site-main-header-wrap site-header-focus-item site-header-row-layout-contained site-header-row-tablet-layout-default site-header-row-mobile-layout-default ">
+	<div class="site-header-row-container-inner">
+		<div class="site-container">
+			<div class="site-main-header-inner-wrap site-header-row site-header-row-has-sides site-header-row-no-center">
+									<div class="site-header-main-section-left site-header-section site-header-section-left">
+						<div class="site-header-item site-header-focus-item" data-section="title_tagline">
+	<div class="site-branding mobile-site-branding branding-layout-standard branding-tablet-layout-inherit site-brand-logo-only branding-mobile-layout-inherit"><a class="brand has-logo-image" href="https://robllewellyn.com/" rel="home"><img width="400" height="184" src="https://robllewellyn.com/wp-content/uploads/2023/02/cropped-rob-llewellyn-logo-black-400-2.png" class="custom-logo" alt="Rob Llewellyn" decoding="async" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/cropped-rob-llewellyn-logo-black-400-2.png 400w, https://robllewellyn.com/wp-content/uploads/2023/02/cropped-rob-llewellyn-logo-black-400-2-300x138.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></a></div></div><!-- data-section="title_tagline" -->
+					</div>
+																	<div class="site-header-main-section-right site-header-section site-header-section-right">
+						<div class="site-header-item site-header-focus-item site-header-item-navgation-popup-toggle" data-section="kadence_customizer_mobile_trigger">
+		<div class="mobile-toggle-open-container">
+						<button id="mobile-toggle" class="menu-toggle-open drawer-toggle menu-toggle-style-default" aria-label="Open menu" data-toggle-target="#mobile-drawer" data-toggle-body-class="showing-popup-drawer-from-right" aria-expanded="false" data-set-focus=".menu-toggle-close"
+					>
+						<span class="menu-toggle-icon"><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-menu-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Toggle Menu</title><path d="M3 13h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 7h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 19h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1z"></path>
+				</svg></span></span>
+		</button>
+	</div>
+	</div><!-- data-section="mobile_trigger" -->
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+			</div>
+		</div>
+			</div>
+</div>
+</header><!-- #masthead -->
+
+	<div  id="inner-wrap" class="wrap kt-clear">
+		<section  role="banner" class="entry-hero post-hero-section entry-hero-layout-standard">
+	<div class="entry-hero-container-inner">
+		<div class="hero-section-overlay"></div>
+		<div class="hero-container site-container">
+			<header class="entry-header post-title title-align-left title-tablet-align-inherit title-mobile-align-inherit">
+				<h1 class="entry-title">Innovation Definition &#8211; Plus 15 Real-World Examples and More</h1>			</header><!-- .entry-header -->
+		</div>
+	</div>
+</section><!-- .entry-hero -->
+<div  id="primary" class="content-area">
+	<div class="content-container site-container">
+		<main id="main" class="site-main" role="main">
+						<div class="content-wrap">
+				<article id="post-20220" class="entry content-bg single-entry post-20220 post type-post status-publish format-standard has-post-thumbnail hentry category-blog">
+	<div class="entry-content-wrap">
+		
+<div class="entry-content single-content">
+	<div style="margin-top: 0px; margin-bottom: 0px;" class="sharethis-inline-share-buttons" ></div>
+<h1 class="wp-block-heading">Innovation Definition</h1>
+
+
+
+<p>Innovation is about having the ability or inclination to create or introduce new and original ideas, methods, or products. It refers to the ability to think creatively and develop novel solutions to problems or opportunities. And an innovative person or organisation is one that is capable of generating fresh ideas and turning them into practical and useful outcomes. But let's go deeper.</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition-1024x576.jpg" alt="Innovation Definition" class="wp-image-20221" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition-1024x576.jpg 1024w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition-300x169.jpg 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition-768x432.jpg 768w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition-1536x864.jpg 1536w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-Definition.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading">What Does Innovative Mean?</h2>
+
+
+
+<p>Innovation can take many forms, from incremental improvements to existing products or processes to disruptive new inventions or entirely new business models. It is often driven by changes in customer needs, market dynamics, or technological advancements. Innovation can lead to significant competitive advantages, increased productivity, and improved quality of life for individuals and society as a whole.</p>
+
+
+
+<p>To be innovative, individuals and organisations need to be willing to take risks, challenge assumptions, and constantly learn and adapt to changing circumstances. They need to have a culture of openness, experimentation, and continuous improvement, where failure is viewed as an opportunity for learning and growth. Successful innovation requires a combination of creativity, knowledge, and practical implementation skills, as well as the ability to collaborate effectively with others.</p>
+
+
+
+<h2 class="wp-block-heading">Why is innovation so important?</h2>
+
+
+
+<p>Innovation is important because it drives growth, creates new opportunities, and helps organisations stay competitive in an ever-changing business landscape. Here are a few reasons why innovation is so important:</p>
+
+
+
+<p>It drives growth: Innovation enables companies to develop new products and services that can attract new customers and generate additional revenue streams, leading to growth and expansion.</p>
+
+
+
+<p>It creates new opportunities: Innovation can open up new markets, create new industries, and provide new business models and opportunities for entrepreneurs and investors.</p>
+
+
+
+<p>It helps organisations stay competitive: Companies that fail to innovate risk falling behind their competitors who are developing new and better products and services that meet the changing needs of customers.</p>
+
+
+
+<p>It solves problems: Innovation can lead to the development of new technologies and solutions that can solve societal and environmental challenges, making the world a better place.</p>
+
+
+
+<p>It increases efficiency: Innovation can improve processes and systems, leading to increased efficiency, reduced costs, and better-quality products and services.</p>
+
+
+
+<h2 class="wp-block-heading">Incremental and Disruptive Innovation</h2>
+
+
+
+<p>Incremental and disruptive innovation are two types of innovation that companies can pursue to stay competitive and drive growth. Here's a brief overview of each:</p>
+
+
+
+<h3 class="wp-block-heading">Incremental innovation</h3>
+
+
+
+<p>Incremental innovation involves making small improvements to existing products, services, or processes. The goal of incremental innovation is to make existing offerings more efficient, user-friendly, or cost-effective. Examples of incremental innovation include adding new features to a product, improving a manufacturing process, or enhancing a service delivery method.</p>
+
+
+
+<h3 class="wp-block-heading">Disruptive innovation</h3>
+
+
+
+<p>Disruptive innovation involves creating entirely new products, services, or processes that disrupt the existing market and fundamentally change the way things are done. Disruptive innovations can create new markets, displace established industry players, and transform entire industries. Examples of disruptive innovation include the introduction of personal computers, smartphones, and ride-sharing services.</p>
+
+
+
+<p>Both incremental and disruptive innovation are important for companies to stay competitive and grow their business. Incremental innovation allows companies to refine and optimise existing products and processes, while disruptive innovation can create new growth opportunities and change the game in the marketplace. Companies that can balance both types of innovation can set themselves up for long-term success.</p>
+
+
+
+<h2 class="wp-block-heading">What is the Best Definition of Innovation?</h2>
+
+
+
+<p>Innovation is the process of creating and implementing new ideas, products, or processes that add value and solve problems in new and better ways. It involves generating and developing ideas, and then transforming those ideas into practical and valuable outcomes.</p>
+
+
+
+<p>Innovation can take many forms, from incremental improvements to existing products or processes to breakthrough inventions and entirely new business models. It can be driven by technological advancements, changes in customer needs and behaviours, or shifts in market dynamics.</p>
+
+
+
+<p>Successful innovation requires a combination of creativity, knowledge, and practical implementation skills. It involves taking risks, challenging assumptions, and constantly learning and adapting to changing circumstances. Innovation can lead to significant competitive advantages, increased productivity, and improved quality of life for individuals and society as a whole.</p>
+
+
+
+<p>Innovation is often a collaborative process that involves bringing together individuals with diverse backgrounds, skills, and perspectives. It requires a culture of openness, experimentation, and continuous improvement, where failure is viewed as an opportunity for learning and growth.</p>
+
+
+
+<figure class="wp-block-embed is-type-wp-embed is-provider-rob-llewellyn wp-block-embed-rob-llewellyn"><div class="wp-block-embed__wrapper">
+<blockquote class="wp-embedded-content" data-secret="7xdHqMA8jK"><a href="https://robllewellyn.com/how-5-types-of-innovation-can-help-you-disrupt/">How 5 Types of Innovation Can Help You Disrupt</a></blockquote><iframe class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" title="&#8220;How 5 Types of Innovation Can Help You Disrupt&#8221; &#8212; Rob Llewellyn" src="https://robllewellyn.com/how-5-types-of-innovation-can-help-you-disrupt/embed/#?secret=7HpxEsvTNh#?secret=7xdHqMA8jK" data-secret="7xdHqMA8jK" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<h2 class="wp-block-heading">What are 5 Types of Innovation?</h2>
+
+
+
+<p>There are several ways to classify types of innovation, but here are four common categories:</p>
+
+
+
+<h3 class="wp-block-heading">Product innovation</h3>
+
+
+
+<p>Product innovation is the process of developing new or improved products or services that provide increased value or benefits to customers. It can involve creating products that are entirely new to the market or making improvements to existing products that enhance their performance, features, or user experience.</p>
+
+
+
+<p>Product innovation can be driven by a variety of factors, including changes in customer needs, emerging technologies, or shifts in market dynamics. It requires a combination of creativity, knowledge, and practical implementation skills, as well as a deep understanding of customer needs and preferences.</p>
+
+
+
+<h4 class="wp-block-heading">Product Innovation Examples</h4>
+
+
+
+<p>Here are three examples of product innovation:</p>
+
+
+
+<h5 class="wp-block-heading"><strong>Apple iPhone</strong></h5>
+
+
+
+<p>The iPhone revolutionised the mobile phone market with its combination of sleek design, touch-screen interface, and robust app ecosystem. The iPhone represented a major step forward in the development of smartphones and has continued to evolve with each subsequent release.</p>
+
+
+
+<h5 class="wp-block-heading"><strong>Tesla electric cars</strong></h5>
+
+
+
+<p>Tesla's electric cars are a prime example of product innovation in the automotive industry. By introducing fully electric vehicles with advanced features such as autonomous driving and over-the-air software updates, Tesla has disrupted the traditional automotive market and set a new standard for innovation in the industry.</p>
+
+
+
+<h5 class="wp-block-heading"><strong>3D printing</strong></h5>
+
+
+
+<p>3D printing technology represents a major innovation in the manufacturing industry, enabling the creation of complex and customisable objects with unprecedented precision and speed. 3D printing has the potential to revolutionise industries from healthcare to construction and is already being used to produce everything from prosthetic limbs to custom homes.</p>
+
+
+
+<p>Product innovation is a critical driver of growth and profitability for many companies, and those that are able to consistently introduce new and innovative products are often the most successful. However, it requires significant investment in research and development, as well as a willingness to take risks and experiment with new ideas.</p>
+
+
+
+<h3 class="wp-block-heading">Process innovation</h3>
+
+
+
+<p>Process innovation is the development of new or improved methods, systems, or procedures for producing goods or delivering services. It can result in increased efficiency, reduced costs, or improved quality of the output.</p>
+
+
+
+<p>Process innovation can involve making changes to existing processes, such as automating manual tasks or reducing waste, or developing entirely new processes that offer new capabilities or features. The goal is to improve the overall efficiency and effectiveness of operations, ultimately leading to better products and services.</p>
+
+
+
+<p>Process innovation can be driven by factors such as changes in technology, customer needs, or market competition. It requires a deep understanding of existing processes and the ability to identify areas for improvement.</p>
+
+
+
+<h4 class="wp-block-heading">Process Innovation Examples</h4>
+
+
+
+<p>Here are three examples of process innovation:</p>
+
+
+
+<h5 class="wp-block-heading">Lean manufacturing</h5>
+
+
+
+<p>Lean manufacturing is a process innovation that focuses on reducing waste and improving efficiency in the production process. By eliminating non-value-added activities and streamlining production flows, companies can reduce costs, increase quality, and improve customer satisfaction.</p>
+
+
+
+<h5 class="wp-block-heading">Robotic process automation</h5>
+
+
+
+<p>Robotic process automation (RPA) is a process innovation that uses software robots to automate repetitive, rule-based tasks. By automating these tasks, companies can reduce errors, increase speed, and free up human workers to focus on higher-level tasks.</p>
+
+
+
+<h5 class="wp-block-heading">Agile software development</h5>
+
+
+
+<p>Agile software development is a process innovation that emphasises collaboration, flexibility, and iterative development. By breaking projects down into smaller, more manageable pieces and involving all stakeholders in the development process, companies can reduce time-to-market, increase customer satisfaction, and improve quality.</p>
+
+
+
+<p>Process innovation is a critical component of digital transformation, as it enables organisations to better leverage the capabilities of new technologies and stay ahead of changing market conditions. By continuously improving processes, organisations can increase efficiency, reduce costs, and improve the quality of their products and services, ultimately leading to greater customer satisfaction and profitability.</p>
+
+
+
+<h3 class="wp-block-heading">Business model innovation</h3>
+
+
+
+<p>Business model innovation involves the creation of new or the modification of existing business models to better respond to customer needs and market conditions. It can involve changes in revenue models, pricing structures, or distribution channels.</p>
+
+
+
+<p>Business model innovation is often driven by changes in technology or shifts in customer behaviour and can lead to the development of new revenue streams, increased customer loyalty, or expanded market opportunities. It requires a deep understanding of the underlying economics of the business, as well as an ability to identify and respond to changing market conditions.</p>
+
+
+
+<h4 class="wp-block-heading">Business model innovation Examples</h4>
+
+
+
+<p>Here are three examples of <a href="https://robllewellyn.com/business-model-transformation-course-2/"  data-wpil-monitor-id="15">business model</a> innovation:</p>
+
+
+
+<h5 class="wp-block-heading">Amazon Web Services</h5>
+
+
+
+<p>Amazon Web Services (AWS) is a cloud computing service that allows businesses to rent computing resources on an as-needed basis. By enabling businesses to pay only for what they use, AWS disrupted the traditional IT infrastructure market and created a new revenue stream for Amazon.</p>
+
+
+
+<h5 class="wp-block-heading">Spotify</h5>
+
+
+
+<p>Spotify is a music streaming service that offers both free and premium subscriptions. By creating a new revenue model based on ad-supported and subscription-based streaming, Spotify disrupted the traditional music industry and has become a dominant player in the music streaming market.</p>
+
+
+
+<h5 class="wp-block-heading">Dollar Shave Club</h5>
+
+
+
+<p>Dollar Shave Club is a subscription-based service that delivers razors and other grooming products directly to customers. By creating a direct-to-consumer business model and cutting out traditional retail channels, Dollar Shave Club disrupted the shaving industry and has since been acquired by Unilever for $1 billion.</p>
+
+
+
+<p><a href="https://robllewellyn.com/business-model-transformation-2/">Business model innovation is a critical component of digital transformation</a>, as it enables organisations to respond to changing market conditions and better leverage the capabilities of new technologies. By continuously refining and adapting their business models, organisations can stay ahead of the competition, grow revenue, and achieve long-term success.</p>
+
+
+
+<h3 class="wp-block-heading">Organisational innovation</h3>
+
+
+
+<p>Organisational innovation involves the development of new or improved structures, management systems, or cultural practices within an organisation. The goal is to enhance an organisation's ability to innovate and adapt to changing market conditions.</p>
+
+
+
+<p>Organisational innovation can involve changes in leadership, decision-making processes, or employee engagement practices. It requires a culture of openness, experimentation, and continuous improvement, where failure is viewed as an opportunity for learning and growth.</p>
+
+
+
+<h4 class="wp-block-heading">Organisational innovation Examples</h4>
+
+
+
+<p>Here are three examples of organisational innovation:</p>
+
+
+
+<h5 class="wp-block-heading">Google's 20%-time policy</h5>
+
+
+
+<p>Google's 20%-time policy allows employees to spend one-fifth of their work time pursuing projects of their own choosing. This policy fosters a culture of innovation, encourages risk-taking, and has led to the development of many successful products, such as Google News and AdSense.</p>
+
+
+
+<h5 class="wp-block-heading">Zappos' holacracy</h5>
+
+
+
+<p>Zappos' holacracy is a management structure that replaces traditional hierarchy with a distributed network of self-organising teams. This structure enables greater agility, creativity, and innovation, and allows employees to have more autonomy and ownership over their work.</p>
+
+
+
+<h5 class="wp-block-heading">Buurtzorg</h5>
+
+
+
+<p>Buurtzorg is a healthcare organisation in the Netherlands that operates with a self-managing team structure. The organisation has no managers and relies on teams of nurses to manage their own caseloads and make decisions collaboratively. This structure has resulted in greater job satisfaction, improved patient outcomes, and reduced costs.</p>
+
+
+
+<p>Organisational innovation is a critical driver of digital transformation, as it enables organisations to create an environment where new ideas can flourish, and innovation can thrive. By investing in organisational innovation, organisations can foster a culture of innovation, improve their ability to respond to changing market conditions, and create a sustainable competitive advantage.</p>
+
+
+
+<p>Innovation can take many forms, and organisations that are able to leverage multiple types of innovation are often the most successful. By developing new products, improving processes, adapting business models, and fostering a culture of innovation, organisations can gain a competitive edge and stay ahead of changing market conditions.</p>
+
+
+
+<h3 class="wp-block-heading">Strategic Innovation</h3>
+
+
+
+<p>Strategic innovation refers to the process of creating and implementing new ideas and approaches that support a company's overall strategy and business goals. It involves identifying opportunities for growth and competitive advantage, developing new products and services, and improving existing processes to increase efficiency and effectiveness.</p>
+
+
+
+<p>Strategic innovation is a proactive approach to innovation that focuses on long-term planning and development, rather than reacting to market changes or customer demands. It requires a deep understanding of the company's mission, vision, and values, as well as the external environment in which it operates.</p>
+
+
+
+<h4 class="wp-block-heading">Strategic Innovation Examples</h4>
+
+
+
+<p>Here are three examples of strategic innovation:</p>
+
+
+
+<h5 class="wp-block-heading">Tesla</h5>
+
+
+
+<p>Tesla's strategy of introducing electric cars into the mass market is an example of strategic innovation. Rather than simply developing a more efficient gasoline-powered car, Tesla created a new market for electric vehicles, using innovative technologies and business models to disrupt the existing automotive industry.</p>
+
+
+
+<h5 class="wp-block-heading">Amazon</h5>
+
+
+
+<p>Amazon's strategy of developing its own ecosystem of hardware and software products, such as the Kindle, Echo, and Alexa, is an example of strategic innovation. By building its own products and services, Amazon has created a seamless customer experience and a competitive advantage in the e-commerce and cloud computing markets.</p>
+
+
+
+<h5 class="wp-block-heading">Procter & Gamble</h5>
+
+
+
+<p>Procter & Gamble's Connect+Develop program is an example of strategic innovation. The program is designed to bring external innovation into the company by partnering with startups, inventors, and researchers to develop new products and technologies. This has allowed P&G to tap into new markets and technologies and keep pace with changing consumer needs and preferences.</p>
+
+
+
+<p>These are just a few examples of strategic innovation, and there are many others across a range of industries and sectors. The common thread is a focus on creating and implementing new ideas and approaches that support the company's overall strategy and business goals.</p>
+
+
+
+<p>Strategic innovation can involve different types of innovation, such as product, process, or business model innovation, and can be driven by internal R&D efforts or through external partnerships and collaborations. It is a key factor in staying ahead of competitors and maintaining relevance in an ever-changing market.</p>
+
+
+
+<h2 class="wp-block-heading">Frameworks for Innovation</h2>
+
+
+
+<p>There are many different frameworks that can be used to guide innovation efforts in organisations. Here are a few commonly used frameworks for innovation:</p>
+
+
+
+<h3 class="wp-block-heading">Design thinking</h3>
+
+
+
+<p>This framework focuses on human-centred design, involving understanding the needs and wants of customers or users, ideating potential solutions, prototyping, and testing, and iterating based on feedback.</p>
+
+
+
+<h3 class="wp-block-heading">Lean startup</h3>
+
+
+
+<p>This framework emphasises rapid experimentation, using a &#8220;build-measure-learn&#8221; approach to quickly test new products or services in the market, gathering data and feedback, and adjusting based on what is learned.</p>
+
+
+
+<h3 class="wp-block-heading">Agile</h3>
+
+
+
+<p>This framework is used in software development and involves iterative and incremental development, collaboration, and a focus on delivering value quickly and frequently.</p>
+
+
+
+<h3 class="wp-block-heading">Open innovation</h3>
+
+
+
+<p>This framework involves collaborating with external partners, such as customers, suppliers, or even competitors, to develop new products, services, or processes.</p>
+
+
+
+<h3 class="wp-block-heading">Blue ocean strategy</h3>
+
+
+
+<p>This framework involves creating new markets or industries, rather than competing within existing ones. It involves identifying untapped customer needs or pain points and creating unique offerings that address them.</p>
+
+
+
+<p>These are just a few examples of innovation frameworks that companies can use to guide their innovation efforts. The right framework will depend on the specific goals, resources, and context of the organisation.</p>
+
+
+
+<h2 class="wp-block-heading">10 Innovation Quotes</h2>
+
+
+
+<p>Here are 10 innovation quotes.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Innovation distinguishes between a leader and a follower.</p>
+<cite>&#8211; Tom Peters</cite></blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Innovation is the central issue in economic prosperity.</p>
+<cite>&#8211; Michael Porter</cite></blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Innovation is the unrelenting drive to break the status quo and bring something new to life.</p>
+<cite>&#8211; Richard Branson</cite></blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Innovation is the specific instrument of entrepreneurship… the act that endows resources with a new capacity to create wealth.</p>
+<cite>&#8211; Peter Drucker</cite></blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Innovation is the creation of the new or the re-arranging of the old in a new way.</p>
+<cite>&#8211; Michael Vance</cite></blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Innovation distinguishes between a leader and a follower.</p>
+<cite>&#8211; Steve Jobs</cite></blockquote>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Innovation is the outcome of a habit, not a random act.</p>
+<cite>&#8211; Sukant Ratnakar</cite></blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Innovation needs to be part of your culture. Consumers are transforming faster than we are, and if we don't catch up, we're in trouble.</p>
+<cite>&#8211; Ian Schafer</cite></blockquote>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Innovation is the result of a constant struggle between the idea and the reality.</p>
+<cite>&#8211; Jules de Gaultier</cite></blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Innovation is the lifeblood of progress.</p>
+<cite>&#8211; Ben Carson</cite></blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading">What is Technology Innovation</h2>
+
+
+
+<p>Technology innovation refers to the process of creating new or improved products, services, or processes that leverage technological advancements or breakthroughs. It involves the development of new technologies, the improvement of existing ones, and the adoption and application of these technologies to solve problems, meet customer needs, and drive business growth.</p>
+
+
+
+<p>Technology innovation can involve the development of hardware, software, systems, and other digital or physical products. It can also involve the integration of various technologies to create new products or services that improve efficiency, effectiveness, and overall quality of life.</p>
+
+
+
+<h2 class="wp-block-heading">The Process of Technology Innovation</h2>
+
+
+
+<p>The process of technology innovation typically involves the following steps:</p>
+
+
+
+<h3 class="wp-block-heading">Ideation</h3>
+
+
+
+<p>Ideations is the process of generating and developing ideas for new or improved technologies. This can involve brainstorming sessions, market research, customer feedback, and other techniques to identify needs and opportunities for innovation.</p>
+
+
+
+<h3 class="wp-block-heading">Research and development</h3>
+
+
+
+<p>Once an idea has been selected, the next step is to research and develop the technology. This can involve a range of activities, including scientific research, engineering, prototyping, testing, and refinement.</p>
+
+
+
+<h3 class="wp-block-heading">Commercialisation</h3>
+
+
+
+<p>Once the technology has been developed, the next step is to bring it to market. This involves developing a go-to-market strategy, creating a business plan, securing funding, building partnerships, and launching the product or service.</p>
+
+
+
+<h3 class="wp-block-heading">Adoption and diffusion</h3>
+
+
+
+<p>This is the process of getting the technology into the hands of users and promoting its adoption. This can involve marketing, sales, customer support, and other activities to encourage early adopters and build momentum.</p>
+
+
+
+<h3 class="wp-block-heading">Continuous improvement</h3>
+
+
+
+<p>Finally, technology innovation is an ongoing process that requires continuous improvement. This involves monitoring feedback, analysing data, and making updates and improvements to the technology over time.</p>
+
+
+
+<h2 class="wp-block-heading">15 Technologies to Innovate With</h2>
+
+
+
+<h3 class="wp-block-heading">Artificial Intelligence</h3>
+
+
+
+<p>Innovating with artificial intelligence (AI) involves using machine learning and other AI technologies to create new products, services, and processes that improve efficiency, effectiveness, and overall quality of life.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="960" height="540" src="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Artificial-Intelligence.png" alt="Innovation-with-Artificial-Intelligence" class="wp-image-20222" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Artificial-Intelligence.png 960w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Artificial-Intelligence-300x169.png 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Artificial-Intelligence-768x432.png 768w" sizes="(max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p>Take a course about artificial intelligence in digital transformation.</p>
+
+
+
+<h3 class="wp-block-heading">Digital Twin</h3>
+
+
+
+<p>Innovating with digital twin involves using a virtual model of a physical object or system to create new products, services, and processes that improve efficiency, effectiveness, and overall quality of life.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="960" height="540" src="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Digital-Twin.png" alt="Innovation-with-Digital-Twin" class="wp-image-20223" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Digital-Twin.png 960w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Digital-Twin-300x169.png 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Digital-Twin-768x432.png 768w" sizes="auto, (max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p>Take a course about innovating with digital twin in digital transformation.</p>
+
+
+
+<h3 class="wp-block-heading">Virtual Reality</h3>
+
+
+
+<p>Innovating with virtual reality (VR) involves creating immersive, three-dimensional computer-generated environments that simulate real-world experiences.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="960" height="540" src="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Virtual-Reality.png" alt="Innovation-with-Virtual-Reality" class="wp-image-20224" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Virtual-Reality.png 960w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Virtual-Reality-300x169.png 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Virtual-Reality-768x432.png 768w" sizes="auto, (max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p>Take a course about innovating with virtual reality in digital transformation.</p>
+
+
+
+<h3 class="wp-block-heading">Machine Learning</h3>
+
+
+
+<p>Innovating with machine learning involves using algorithms and statistical models to enable computers to learn from data and make predictions or recommendations.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="960" height="540" src="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Machine-Learning.png" alt="Innovation-with-Machine-Learning" class="wp-image-20225" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Machine-Learning.png 960w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Machine-Learning-300x169.png 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Machine-Learning-768x432.png 768w" sizes="auto, (max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p>Take a course about innovating with machine learning in digital transformation.</p>
+
+
+
+<h3 class="wp-block-heading">Big Data Analytics</h3>
+
+
+
+<p>Innovating with big data analytics involves using large and complex data sets to uncover insights and trends that can inform decision-making and drive business growth.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="960" height="540" src="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Big-Data-Analytics.png" alt="Innovation-with-Big-Data-Analytics" class="wp-image-20226" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Big-Data-Analytics.png 960w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Big-Data-Analytics-300x169.png 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Big-Data-Analytics-768x432.png 768w" sizes="auto, (max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p>Take a course about innovating with big data analytics in digital transformation.</p>
+
+
+
+<h3 class="wp-block-heading">Robotics</h3>
+
+
+
+<p>Innovating with robotics involves designing, building, and programming machines to perform tasks that are typically performed by humans.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="960" height="540" src="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Robotics.png" alt="Innovation-with-Robotics" class="wp-image-20227" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Robotics.png 960w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Robotics-300x169.png 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Robotics-768x432.png 768w" sizes="auto, (max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p>Take a course about innovating with robotics in digital transformation.</p>
+
+
+
+<h3 class="wp-block-heading">Mobile Technology</h3>
+
+
+
+<p>Innovating with mobile technology involves creating new products, services, and processes that leverage the capabilities of mobile devices to improve efficiency, effectiveness, and overall quality of life.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="960" height="540" src="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Mobile-Technology.png" alt="Innovation-with-Mobile-Technology" class="wp-image-20228" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Mobile-Technology.png 960w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Mobile-Technology-300x169.png 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Mobile-Technology-768x432.png 768w" sizes="auto, (max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p>Take a course about innovating with mobile technology in digital transformation.</p>
+
+
+
+<h3 class="wp-block-heading">Cloud Computing</h3>
+
+
+
+<p>Innovating with cloud computing involves creating new products, services, and processes that leverage the capabilities of cloud-based infrastructure and platforms to improve efficiency, effectiveness, and overall quality of life.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="960" height="540" src="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Cloud-Computing.png" alt="Innovation-with-Cloud-Computing" class="wp-image-20229" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Cloud-Computing.png 960w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Cloud-Computing-300x169.png 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-Cloud-Computing-768x432.png 768w" sizes="auto, (max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p>Take a course about innovating with cloud computing in digital transformation.</p>
+
+
+
+<h3 class="wp-block-heading">Internet of Things</h3>
+
+
+
+<p>Innovating with the Internet of Things (IoT) involves creating new products, services, and processes that leverage the capabilities of connected devices to improve efficiency, effectiveness, and overall quality of life.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="960" height="540" src="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-IoT.png" alt="Innovation-with-IoT" class="wp-image-20230" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-IoT.png 960w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-IoT-300x169.png 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-IoT-768x432.png 768w" sizes="auto, (max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p>Take a course about <a href="https://cxotransform.com" target="_blank" rel="noopener">innovating with the internet of things in digital transformation</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Robotic Process Automation</h3>
+
+
+
+<p>Innovating with Robotic Process Automation (RPA) involves automating repetitive and mundane business processes using software robots that mimic human actions.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="960" height="540" src="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-RPA.png" alt="Innovation-with-RPA" class="wp-image-20231" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-RPA.png 960w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-RPA-300x169.png 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Innovation-with-RPA-768x432.png 768w" sizes="auto, (max-width: 960px) 100vw, 960px" /></figure>
+
+
+
+<p>Take a course about <a href="https://cxotransform.com" target="_blank" rel="noopener">innovating with robotic process automation in digital transformation</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Augmented Reality</h3>
+
+
+
+<p>Innovating with Augmented Reality (AR) involves creating new products, services, and processes that use computer-generated images or other digital content to enhance or augment the physical world.</p>
+
+
+
+<p>Take a course about <a href="https://cxotransform.com" target="_blank" rel="noopener">innovating with augmented reality in digital transformation</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Hyperautomation</h3>
+
+
+
+<p>Innovating with hyperautomation involves using a combination of advanced technologies such as Artificial Intelligence, Robotic Process Automation (RPA), and Machine Learning to automate complex business processes.</p>
+
+
+
+<p>Take a course about innovating with hyperautomation in digital transformation.</p>
+
+
+
+<h3 class="wp-block-heading">Blockchain</h3>
+
+
+
+<p>Innovating with Blockchain involves creating new products, services, and processes that use distributed ledger technology to provide secure, transparent, and tamper-resistant transactions.</p>
+
+
+
+<p>Take a <a href="https://robllewellyn.com/business-transformation-course/" data-wpil-monitor-id="209">course about innovating with blockchain in digital transformation</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Quantum Computing</h3>
+
+
+
+<p>Innovating with Quantum Computing involves creating new products, services, and processes that use the principles of quantum mechanics to perform computations that are beyond the capabilities of classical computers.</p>
+
+
+
+<p>Take a course about innovating with quantum computing in digital transformation.</p>
+
+
+
+<h3 class="wp-block-heading">Metaverse</h3>
+
+
+
+<p>Innovating with the Metaverse involves creating new products, services, and experiences that use virtual and augmented reality to create an immersive and interactive shared digital environment.</p>
+
+
+
+<p>Take a course about innovating with the metaverse in digital transformation.</p>
+
+
+
+<h2 class="wp-block-heading">Technology Innovation Practitioner Program</h2>
+
+
+
+<p>The Technology Innovation Practitioner Program is where you can learn how to innovate with all of the technologies listed above.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="668" src="https://robllewellyn.com/wp-content/uploads/2023/02/Technology-Innovation-Practitioner-Program-1024x668.jpg" alt="Technology Innovation Practitioner Program" class="wp-image-20139" srcset="https://robllewellyn.com/wp-content/uploads/2023/02/Technology-Innovation-Practitioner-Program-1024x668.jpg 1024w, https://robllewellyn.com/wp-content/uploads/2023/02/Technology-Innovation-Practitioner-Program-300x196.jpg 300w, https://robllewellyn.com/wp-content/uploads/2023/02/Technology-Innovation-Practitioner-Program-768x501.jpg 768w, https://robllewellyn.com/wp-content/uploads/2023/02/Technology-Innovation-Practitioner-Program.jpg 1089w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><a href="https://robllewellyn.com/technology-innovation/">Become a Certified Technology Innovation Practitioner</a></p>
+</div><!-- .entry-content -->
+	</div>
+</article><!-- #post-20220 -->
+
+
+	<nav class="navigation post-navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://robllewellyn.com/business-model-transformation-2/" rel="prev"><div class="post-navigation-sub"><small><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-left-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewBox="0 0 29 28"><title>Previous</title><path d="M28 12.5v3c0 0.281-0.219 0.5-0.5 0.5h-19.5v3.5c0 0.203-0.109 0.375-0.297 0.453s-0.391 0.047-0.547-0.078l-6-5.469c-0.094-0.094-0.156-0.219-0.156-0.359v0c0-0.141 0.063-0.281 0.156-0.375l6-5.531c0.156-0.141 0.359-0.172 0.547-0.094 0.172 0.078 0.297 0.25 0.297 0.453v3.5h19.5c0.281 0 0.5 0.219 0.5 0.5z"></path>
+				</svg></span>Previous</small></div>The 50 Best Examples of Business Model Transformation</a></div><div class="nav-next"><a href="https://robllewellyn.com/digital-art/" rel="next"><div class="post-navigation-sub"><small>Next<span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-right-alt-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28"><title>Continue</title><path d="M27 13.953c0 0.141-0.063 0.281-0.156 0.375l-6 5.531c-0.156 0.141-0.359 0.172-0.547 0.094-0.172-0.078-0.297-0.25-0.297-0.453v-3.5h-19.5c-0.281 0-0.5-0.219-0.5-0.5v-3c0-0.281 0.219-0.5 0.5-0.5h19.5v-3.5c0-0.203 0.109-0.375 0.297-0.453s0.391-0.047 0.547 0.078l6 5.469c0.094 0.094 0.156 0.219 0.156 0.359v0z"></path>
+				</svg></span></small></div>Digital Art: The 1.618 Masterpiece &#8211; Where Talent Meets New Tech</a></div></div>
+	</nav>			</div>
+					</main><!-- #main -->
+		<aside id="secondary" role="complementary" class="primary-sidebar widget-area sidebar-slug-sidebar-primary sidebar-link-style-normal">
+	<div class="sidebar-inner-wrap">
+		<section id="search-4" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://robllewellyn.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			<div class="kadence-search-icon-wrap"><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-search-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28"><title>Search</title><path d="M18 13c0-3.859-3.141-7-7-7s-7 3.141-7 7 3.141 7 7 7 7-3.141 7-7zM26 26c0 1.094-0.906 2-2 2-0.531 0-1.047-0.219-1.406-0.594l-5.359-5.344c-1.828 1.266-4.016 1.937-6.234 1.937-6.078 0-11-4.922-11-11s4.922-11 11-11 11 4.922 11 11c0 2.219-0.672 4.406-1.937 6.234l5.359 5.359c0.359 0.359 0.578 0.875 0.578 1.406z"></path>
+				</svg></span></div></form></section><section id="media_image-14" class="widget widget_media_image"><a href="https://www.youtube.com/@cxofm"><img width="300" height="107" src="https://robllewellyn.com/wp-content/uploads/2024/11/Visit-My-YouTube-Channel-300x107.png" class="image wp-image-21197  attachment-medium size-medium" alt="Visit My YouTube Channel" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://robllewellyn.com/wp-content/uploads/2024/11/Visit-My-YouTube-Channel-300x107.png 300w, https://robllewellyn.com/wp-content/uploads/2024/11/Visit-My-YouTube-Channel-1024x365.png 1024w, https://robllewellyn.com/wp-content/uploads/2024/11/Visit-My-YouTube-Channel-768x274.png 768w, https://robllewellyn.com/wp-content/uploads/2024/11/Visit-My-YouTube-Channel-1536x548.png 1536w, https://robllewellyn.com/wp-content/uploads/2024/11/Visit-My-YouTube-Channel.png 1654w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a></section><section id="media_image-13" class="widget widget_media_image"><a href="https://cxo.fm/news"><img width="300" height="157" src="https://robllewellyn.com/wp-content/uploads/2025/10/Boardroom-Brief-Newsletter-300x157.png" class="image wp-image-21503  attachment-medium size-medium" alt="Boardroom Brief Newsletter" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://robllewellyn.com/wp-content/uploads/2025/10/Boardroom-Brief-Newsletter-300x157.png 300w, https://robllewellyn.com/wp-content/uploads/2025/10/Boardroom-Brief-Newsletter-1024x536.png 1024w, https://robllewellyn.com/wp-content/uploads/2025/10/Boardroom-Brief-Newsletter-768x402.png 768w, https://robllewellyn.com/wp-content/uploads/2025/10/Boardroom-Brief-Newsletter.png 1200w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a></section><section id="media_image-12" class="widget widget_media_image"><a href="https://courses.cxotransform.com/"><img width="300" height="168" src="https://robllewellyn.com/wp-content/uploads/2024/06/Digital-Transformation-Courses-300x168.jpg" class="image wp-image-21138  attachment-medium size-medium" alt="Digital Transformation Courses" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://robllewellyn.com/wp-content/uploads/2024/06/Digital-Transformation-Courses-300x168.jpg 300w, https://robllewellyn.com/wp-content/uploads/2024/06/Digital-Transformation-Courses-1024x574.jpg 1024w, https://robllewellyn.com/wp-content/uploads/2024/06/Digital-Transformation-Courses-768x430.jpg 768w, https://robllewellyn.com/wp-content/uploads/2024/06/Digital-Transformation-Courses-1536x861.jpg 1536w, https://robllewellyn.com/wp-content/uploads/2024/06/Digital-Transformation-Courses.jpg 2000w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a></section>
+		<section id="recent-posts-3" class="widget widget_recent_entries">
+		<h2 class="widget-title">Popular Articles</h2>
+		<ul>
+											<li>
+					<a href="https://robllewellyn.com/ai-strategy-course/">What Every AI Strategy Course Gets Wrong — And Why You Need a System Instead</a>
+									</li>
+											<li>
+					<a href="https://robllewellyn.com/digital-transformation-in-banking/">Digital Transformation in Banking: Examples, Best Practices &amp; Challenges</a>
+									</li>
+											<li>
+					<a href="https://robllewellyn.com/ai-for-business/">AI For Business &#8211; 30 Case Studies That Led To Competitive Advantage</a>
+									</li>
+											<li>
+					<a href="https://robllewellyn.com/digital-transformation-manager/">7 Skills Every Digital Transformation Manager Needs In Medium to Large Organisations</a>
+									</li>
+											<li>
+					<a href="https://robllewellyn.com/10-essential-ai-governance-strategies/">10 Essential AI Governance Strategies Every Organisation Must Implement to Mitigate Risks and Ensure Accountability</a>
+									</li>
+					</ul>
+
+		</section>	</div>
+</aside><!-- #secondary -->
+	</div>
+</div><!-- #primary -->
+	</div><!-- #inner-wrap -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+	<div class="site-footer-wrap">
+		<div class="site-top-footer-wrap site-footer-row-container site-footer-focus-item site-footer-row-layout-standard site-footer-row-tablet-layout-default site-footer-row-mobile-layout-default" data-section="kadence_customizer_footer_top">
+	<div class="site-footer-row-container-inner">
+				<div class="site-container">
+			<div class="site-top-footer-inner-wrap site-footer-row site-footer-row-columns-2 site-footer-row-column-layout-equal site-footer-row-tablet-column-layout-default site-footer-row-mobile-column-layout-row ft-ro-dir-row ft-ro-collapse-normal ft-ro-t-dir-default ft-ro-m-dir-default ft-ro-lstyle-plain">
+									<div class="site-footer-top-section-1 site-footer-section footer-section-inner-items-1">
+						<div class="footer-widget-area widget-area site-footer-focus-item footer-widget1 content-align-default content-tablet-align-default content-mobile-align-default content-valign-default content-tablet-valign-default content-mobile-valign-default" data-section="sidebar-widgets-footer1">
+	<div class="footer-widget-area-inner site-info-inner">
+		<section id="text-54" class="widget widget_text"><h2 class="widget-title">About Rob Llewellyn</h2>			<div class="textwidget"><p>In over 30 countries, Rob has spent more than two decades helping large organisations generate commercial value from new technology.</p>
+<p>Providing advice and guidance to Fortune 100 CEOs and their key executives provided Rob with the foundation upon which he launched one of the world&#8217;s first online learning platforms dedicated to managers, leaders, and consultants who drive digital transformation.</p>
+</div>
+		</section>	</div>
+</div><!-- .footer-widget1 -->
+					</div>
+										<div class="site-footer-top-section-2 site-footer-section footer-section-inner-items-1">
+						<div class="footer-widget-area widget-area site-footer-focus-item footer-widget2 content-align-right content-tablet-align-default content-mobile-align-default content-valign-default content-tablet-valign-default content-mobile-valign-default" data-section="sidebar-widgets-footer2">
+	<div class="footer-widget-area-inner site-info-inner">
+		<section id="text-55" class="widget widget_text"><h2 class="widget-title">Useful Links</h2>			<div class="textwidget"><p><a href="https://robllewellyn.com/posts/">Articles</a><br />
+<a href="https://cxo.buzzsprout.com/">Podcasts</a><br />
+<a href="https://join.cxotransform.com">Community</a><br />
+<a href="https://robllewellyn.com/vip-free-book/" target="_blank" rel="noopener">Rob&#8217;s Book</a><br />
+<a href="https://robllewellyn.com/schedule-a-call-with-rob/">Consultation</a><br />
+<a href="https://courses.cxotransform.com/" target="_blank" rel="noopener">Courses</a></p>
+<p><a href="https://v2.zopim.com/widget/popout.html?key=TqzK23ruP8hnW5C885RYM6RYAbP8ePkf" target="_blank" rel="noopener">Get in Touch</a></p>
+</div>
+		</section>	</div>
+</div><!-- .footer-widget2 -->
+					</div>
+								</div>
+		</div>
+	</div>
+</div>
+<div class="site-middle-footer-wrap site-footer-row-container site-footer-focus-item site-footer-row-layout-contained site-footer-row-tablet-layout-default site-footer-row-mobile-layout-standard" data-section="kadence_customizer_footer_middle">
+	<div class="site-footer-row-container-inner">
+				<div class="site-container">
+			<div class="site-middle-footer-inner-wrap site-footer-row site-footer-row-columns-2 site-footer-row-column-layout-equal site-footer-row-tablet-column-layout-left-golden site-footer-row-mobile-column-layout-row ft-ro-dir-row ft-ro-collapse-normal ft-ro-t-dir-default ft-ro-m-dir-column ft-ro-lstyle-plain">
+									<div class="site-footer-middle-section-1 site-footer-section footer-section-inner-items-1">
+						
+<div class="footer-widget-area site-info site-footer-focus-item content-align-default content-tablet-align-default content-mobile-align-default content-valign-top content-tablet-valign-middle content-mobile-valign-default" data-section="kadence_customizer_footer_html">
+	<div class="footer-widget-area-inner site-info-inner">
+		<div class="footer-html inner-link-style-normal"><div class="footer-html-inner"><p>&copy; 2026 Rob Llewellyn | <a href="https://robllewellyn.com/privacy-policy/">Privacy</a></p>
+</div></div>	</div>
+</div><!-- .site-info -->
+					</div>
+										<div class="site-footer-middle-section-2 site-footer-section footer-section-inner-items-1">
+						<div class="footer-widget-area widget-area site-footer-focus-item footer-social content-align-right content-tablet-align-right content-mobile-align-left content-valign-default content-tablet-valign-middle content-mobile-valign-default" data-section="kadence_customizer_footer_social">
+	<div class="footer-widget-area-inner footer-social-inner">
+		<div class="footer-social-wrap"><div class="footer-social-inner-wrap element-social-inner-wrap social-show-label-true social-style-filled"><a href="https://www.linkedin.com/in/robllewellyn/" target="_blank" rel="noopener noreferrer"  class="social-button footer-social-item social-link-linkedin"><span class="kadence-svg-iconset"><svg class="kadence-svg-icon kadence-linkedin-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28"><title>Linkedin</title><path d="M3.703 22.094h3.609v-10.844h-3.609v10.844zM7.547 7.906c-0.016-1.062-0.781-1.875-2.016-1.875s-2.047 0.812-2.047 1.875c0 1.031 0.781 1.875 2 1.875h0.016c1.266 0 2.047-0.844 2.047-1.875zM16.688 22.094h3.609v-6.219c0-3.328-1.781-4.875-4.156-4.875-1.937 0-2.797 1.078-3.266 1.828h0.031v-1.578h-3.609s0.047 1.016 0 10.844v0h3.609v-6.062c0-0.313 0.016-0.641 0.109-0.875 0.266-0.641 0.859-1.313 1.859-1.313 1.297 0 1.813 0.984 1.813 2.453v5.797zM24 6.5v15c0 2.484-2.016 4.5-4.5 4.5h-15c-2.484 0-4.5-2.016-4.5-4.5v-15c0-2.484 2.016-4.5 4.5-4.5h15c2.484 0 4.5 2.016 4.5 4.5z"></path>
+				</svg></span><span class="social-label">Find Rob on Linkedin</span></a></div></div>	</div>
+</div><!-- data-section="footer_social" -->
+					</div>
+								</div>
+		</div>
+	</div>
+</div>
+	</div>
+</footer><!-- #colophon -->
+
+</div><!-- #wrapper -->
+
+			<script type="rocketlazyloadscript">document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );</script>
+			<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/kadence/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+        <!-- Deadline Funnel --><script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-cfasync="false">function SendUrlToDeadlineFunnel(e){var r,t,c,a,h,n,o,A,i = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",d=0,l=0,s="",u=[];if(!e)return e;do r=e.charCodeAt(d++),t=e.charCodeAt(d++),c=e.charCodeAt(d++),A=r<<16|t<<8|c,a=A>>18&63,h=A>>12&63,n=A>>6&63,o=63&A,u[l++]=i.charAt(a)+i.charAt(h)+i.charAt(n)+i.charAt(o);while(d<e.length);s=u.join("");var C=e.length%3;var decoded = (C?s.slice(0,C-3):s)+"===".slice(C||3);decoded = decoded.replace("+", "-");decoded = decoded.replace("/", "_");return decoded;} var url = SendUrlToDeadlineFunnel(location.href); var parentUrlValue;try {parentUrlValue = window.parent.location.href;} catch(err) {if(err.name === "SecurityError") {parentUrlValue = document.referrer;}}var parentUrl = (parent !== window) ? ("/" + SendUrlToDeadlineFunnel(parentUrlValue)) : "";(function() {var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.setAttribute("data-scriptid", "dfunifiedcode");s.src ="https://a.deadlinefunnel.com/unified/reactunified.bundle.js?userIdHash=eyJpdiI6IldwOUs2Mjd0MEY2ZHhXeEJ0dldOOEE9PSIsInZhbHVlIjoiMVwveXJVd2NPOENKNzNVVmthZUZ3aHc9PSIsIm1hYyI6IjI4M2RmMDA2NzAwNGFhNDQ4MmI5ODJiYTM0NmNiYTE5NTMxYTA0MGVjMTdiMTA3NDVmMGZiYWQyYzQxMWNlNWMifQ==&pageFromUrl="+url+"&parentPageFromUrl="+parentUrl;var s2 = document.getElementsByTagName("script")[0];s2.parentNode.insertBefore(s, s2);})(); </script><!-- End Deadline Funnel -->
+    <a id="kt-scroll-up" tabindex="-1" aria-hidden="true" aria-label="Scroll to top" href="#wrapper" class="kadence-scroll-to-top scroll-up-wrap scroll-ignore scroll-up-side-right scroll-up-style-outline vs-lg-true vs-md-false vs-sm-false"><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-chevron-up-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Scroll to top</title><path d="M18.707 14.293l-6-6c-0.391-0.391-1.024-0.391-1.414 0l-6 6c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l5.293-5.293 5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path>
+				</svg></span></a><button id="kt-scroll-up-reader" href="#wrapper" aria-label="Scroll to top" class="kadence-scroll-to-top scroll-up-wrap scroll-ignore scroll-up-side-right scroll-up-style-outline vs-lg-true vs-md-false vs-sm-false"><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-chevron-up-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Scroll to top</title><path d="M18.707 14.293l-6-6c-0.391-0.391-1.024-0.391-1.414 0l-6 6c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l5.293-5.293 5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path>
+				</svg></span></button>	<div id="mobile-drawer" class="popup-drawer popup-drawer-layout-sidepanel popup-drawer-animation-fade popup-drawer-side-right" data-drawer-target-string="#mobile-drawer"
+			>
+		<div  class="drawer-overlay" data-drawer-target-string="#mobile-drawer"></div>
+		<div  class="drawer-inner">
+						<div  class="drawer-header">
+				<button class="menu-toggle-close drawer-toggle" aria-label="Close menu"  data-toggle-target="#mobile-drawer" data-toggle-body-class="showing-popup-drawer-from-right" aria-expanded="false" data-set-focus=".menu-toggle-open"
+							>
+					<span class="toggle-close-bar"></span>
+					<span class="toggle-close-bar"></span>
+				</button>
+			</div>
+			<div  class="drawer-content mobile-drawer-content content-align-left content-valign-top">
+								<div class="site-header-item site-header-focus-item site-header-item-mobile-navigation mobile-navigation-layout-stretch-false" data-section="kadence_customizer_mobile_navigation">
+		<nav id="mobile-site-navigation" class="mobile-navigation drawer-navigation drawer-navigation-parent-toggle-false" role="navigation" aria-label="Primary Mobile Navigation">
+				<div class="mobile-menu-container drawer-menu-container">
+			<ul id="mobile-menu" class="menu has-collapse-sub-nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21344"><a href="https://courses.cxotransform.com">Career Pathways</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20182"><a href="https://robllewellyn.com/posts/">Articles</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21473"><a href="https://cxo.fm/news">Newsletter</a></li>
+</ul>		</div>
+	</nav><!-- #site-navigation -->
+	</div><!-- data-section="mobile_navigation" -->
+							</div>
+		</div>
+	</div>
+	<script type="rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://robllewellyn.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script id="kadence-navigation-js-extra">
+var kadenceConfig = {"screenReader":{"expand":"Child menu","expandOf":"Child menu of","collapse":"Child menu","collapseOf":"Child menu of"},"breakPoints":{"desktop":"1024","tablet":768},"scrollOffset":"0"};
+//# sourceURL=kadence-navigation-js-extra
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://robllewellyn.com/wp-content/themes/kadence/assets/js/navigation.min.js?ver=1.2.21" id="kadence-navigation-js" async></script>
+<script src="https://robllewellyn.com/wp-includes/js/wp-embed.min.js?ver=6e48d50039b35d404b9872ac86ad0eea" id="wp-embed-js" defer data-wp-strategy="defer"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://robllewellyn.com/wp-content/plugins/widgetkit/assets/js/maps.js?ver=6e48d50039b35d404b9872ac86ad0eea" id="widgetkit-maps-js" data-rocket-defer defer></script>
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1778655653 -->

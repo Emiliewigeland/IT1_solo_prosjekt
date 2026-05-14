@@ -15,7 +15,7 @@
  }
 
  body {
-     background-image: url(bilder/bakgrunsbilde.jpg);
+     background-image: url(bilder/bakgrunnsbilde.jpg);
      background-size: cover;
      background-attachment: fixed;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -74,6 +74,7 @@
      background: white;
      display: flex;
      gap: 20px;
+     color: black;
 
 
  }

@@ -116,13 +116,39 @@
 
 
  footer {
-     height: 20vh;
-     background-color: white;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
+    background-color: white;
+    display: flex;
+    gap: 80px;
+    padding: 60px 40px;
+}
 
- footer p {
-     font-size: 30px;
- }
+.footer-lenker {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sign-up input {
+    padding: 10px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.sign-up button {
+    padding: 10px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+}
+
+.tc {
+    width: 300px;
+    font-size: 12px;
+}

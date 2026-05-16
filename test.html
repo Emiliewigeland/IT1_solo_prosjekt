@@ -25,11 +25,12 @@
 
     </header>
 
-    <section class="container">
-        
+    <section>
+
         <p id="questions"></p>
         <div id="svar-btn"></div>
     </section>
+
 
     <script>
 
@@ -112,53 +113,81 @@
         ]
 
         let i = 0
-let poeng = 0
+        let poeng = 0
 
-function visQuestion() {
+        function visQuestion() {
 
-    if (i === alleQuestion.length) {
-        let iq
+            if (i === alleQuestion.length) {
+                let iq
 
-        if (poeng <= 3) iq = 85
-        else if (poeng <= 6) iq = 95
-        else if (poeng <= 9) iq = 105
-        else if (poeng <= 12) iq = 115
-        else iq = 130
+                if (poeng <= 3) iq = 85
+                else if (poeng <= 6) iq = 95
+                else if (poeng <= 9) iq = 105
+                else if (poeng <= 12) iq = 115
+                else iq = 130
 
-        document.getElementById("questions").innerHTML = "Du fikk " + poeng + " av 15 riktige. Din IQ er: " + iq
-        document.getElementById("svar-btn").innerHTML = ""
-        return
-    }
-
-    let question = alleQuestion[i]
-    document.getElementById("questions").innerText = question.question
-
-    let svarBoks = document.getElementById("svar-btn")
-    svarBoks.innerHTML = ""
-
-    for (let j = 0; j < question.svar.length; j++) {
-        let knapp = document.createElement("button")
-        knapp.innerText = question.svar[j]
-        svarBoks.appendChild(knapp)
-
-        knapp.onclick = function () {
-            if (knapp.innerText === question.riktig) {
-                poeng++
+                document.getElementById("questions").innerHTML = "Du fikk " + poeng + " av 15 riktige. Din IQ er: " + iq
+                document.getElementById("svar-btn").innerHTML = ""
+                return
             }
-            i++
-            visQuestion()
-        }
-    }
-}
 
-visQuestion()
+            let question = alleQuestion[i]
+            document.getElementById("questions").innerText = question.question
+
+            let svarBoks = document.getElementById("svar-btn")
+            svarBoks.innerHTML = ""
+
+            for (let j = 0; j < question.svar.length; j++) {
+                let knapp = document.createElement("button")
+                knapp.innerText = question.svar[j]
+                svarBoks.appendChild(knapp)
+
+                knapp.onclick = function () {
+                    if (knapp.innerText === question.riktig) {
+                        poeng++
+                    }
+                    i++
+                    visQuestion()
+                }
+            }
+        }
+
+        visQuestion()
 
 
 
 
     </script>
 
-</body>
+    <footer>
+        <div class="footer-lenker">
+            <b>ABOUT</b>
+            <a href="about-us.html">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">FAQ</a>
+        </div>
 
+        <div class="footer-lenker">
+            <b>SUPPORT</b>
+            <a href="#">Contact</a>
+            <a href="prices.html">Pricing</a>
+        </div>
+
+        <div class="sign-up">
+            <b>SIGN UP TO RECEIVE EMAILS</b>
+            <p>Be the first to know about new tests and tips</p>
+            <p>Email address</p>
+            <input type="text">
+            <button>Sign up</button>
+            <p class="tc">*T&Cs apply. By submitting your email you agree to receive marketing emails.</p>
+        </div>
+
+        <div>
+            <img src="bilder/footer.jpg" alt="">
+        </div>
+    </footer>
+
+  
+</body>
 
 </html>

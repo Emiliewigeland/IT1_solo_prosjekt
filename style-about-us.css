@@ -1,0 +1,40 @@
+
+
+ .section1 img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    margin-top: 15%;
+    
+ }
+
+ .section2{
+    height: 170vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 80px;
+  
+ }
+
+ .kort{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 20px;
+ }
+
+ .skjul-teksten{
+    display: none;
+    line-height: 2;
+ }
+
+.kort:hover .skjul-teksten{
+    display: block;
+    background-color: var(--farge-hvit);
+    padding: 20px;
+    box-shadow: var(--skygge);
+  
+}
+

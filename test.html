@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style-2.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-test.css">
+    
 </head>
 
 <body>
@@ -31,135 +33,7 @@
         <div id="svar-btn"></div>
     </section>
 
-
-    <script>
-
-        let alleQuestion = [
-            {
-                question: "Hvilket tall kommer neste? 1, 1, 2, 3, 5, 8, ?",
-                svar: ["13", "11", "12", "10"],
-                riktig: "13"
-            },
-            {
-                question: "Hvis du snur NOITULOS baklengs, hvilket ord får du?",
-                svar: ["SOLUTION", "PROBLEM", "ANSWER", "RESULT"],
-                riktig: "SOLUTION"
-            },
-            {
-                question: "Hvilket tall mangler? 2, 6, 12, 20, 30, ?",
-                svar: ["42", "40", "38", "44"],
-                riktig: "42"
-            },
-            {
-                question: "En togstasjon har 4 plattformer. Hvert tog stopper på 2 plattformer. Hvor mange tog trengs for at alle plattformer er brukt likt?",
-                svar: ["4", "2", "6", "8"],
-                riktig: "4"
-            },
-            {
-                question: "Hvilket ord hører ikke hjemme? Kvadrat, Sirkel, Rektangel, Diagonal",
-                svar: ["Diagonal", "Sirkel", "Kvadrat", "Rektangel"],
-                riktig: "Diagonal"
-            },
-            {
-                question: "Hvis alle bloomer er zoom, og alle zoom er glim - er alle bloomer glim?",
-                svar: ["Ja", "Nei", "Umulig å si", "Av og til"],
-                riktig: "Ja"
-            },
-            {
-                question: "Hvilket tall kommer neste? 3, 9, 27, 81, ?",
-                svar: ["243", "162", "180", "270"],
-                riktig: "243"
-            },
-            {
-                question: "En butikk selger epler for 3kr og bananer for 5kr. Du betaler 37kr. Hvor mange epler kjøpte du hvis du kjøpte 5 bananer?",
-                svar: ["4", "3", "5", "6"],
-                riktig: "4"
-            },
-            {
-                question: "Hvilket tall mangler? 144, 121, 100, 81, ?",
-                svar: ["64", "72", "60", "70"],
-                riktig: "64"
-            },
-            {
-                question: "Hvis januar = 1, mars = 3, hva er oktober?",
-                svar: ["10", "8", "9", "11"],
-                riktig: "10"
-            },
-            {
-                question: "Hvilket tall kommer neste? 2, 3, 5, 7, 11, 13, ?",
-                svar: ["17", "15", "16", "19"],
-                riktig: "17"
-            },
-            {
-                question: "Hva er 17 x 13?",
-                svar: ["221", "211", "231", "201"],
-                riktig: "221"
-            },
-            {
-                question: "Hvilket ord er alltid en del av 'skog'?",
-                svar: ["Trær", "Elg", "Sopp", "Bekk"],
-                riktig: "Trær"
-            },
-            {
-                question: "Hvilket tall mangler? 1, 4, 9, 16, 25, ?",
-                svar: ["36", "30", "32", "35"],
-                riktig: "36"
-            },
-            {
-                question: "En klokke viser 3:15. Hvilken vinkel er det mellom viserne?",
-                svar: ["7.5°", "0°", "15°", "22.5°"],
-                riktig: "7.5°"
-            }
-        ]
-
-        let i = 0
-        let poeng = 0
-
-        function visQuestion() {
-
-            if (i === alleQuestion.length) {
-                let iq
-
-                if (poeng <= 3) iq = 85
-                else if (poeng <= 6) iq = 95
-                else if (poeng <= 9) iq = 105
-                else if (poeng <= 12) iq = 115
-                else iq = 130
-
-                document.getElementById("questions").innerHTML = "Du fikk " + poeng + " av 15 riktige. Din IQ er: " + iq
-                document.getElementById("svar-btn").innerHTML = ""
-                return
-            }
-
-            let question = alleQuestion[i]
-            document.getElementById("questions").innerText = question.question
-
-            let svarBoks = document.getElementById("svar-btn")
-            svarBoks.innerHTML = ""
-
-            for (let j = 0; j < question.svar.length; j++) {
-                let knapp = document.createElement("button")
-                knapp.innerText = question.svar[j]
-                svarBoks.appendChild(knapp)
-
-                knapp.onclick = function () {
-                    if (knapp.innerText === question.riktig) {
-                        poeng++
-                    }
-                    i++
-                    visQuestion()
-                }
-            }
-        }
-
-        visQuestion()
-
-
-
-
-    </script>
-
-    <footer>
+      <footer>
         <div class="footer-lenker">
             <b>ABOUT</b>
             <a href="about-us.html">About Us</a>
@@ -187,7 +61,7 @@
         </div>
     </footer>
 
-  
+    <script src="script.js"></script>
 </body>
 
 </html>

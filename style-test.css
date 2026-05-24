@@ -1,39 +1,52 @@
 
 
 section {
-    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    gap: 100px;
+    align-items: center;
+    gap: 30px;
+    padding: 80px 40px;
 }
 
-
-#questions {
+.sporsmal {
     background-color: white;
-    font-size: 28px;
     padding: 30px;
-    box-shadow: 0 2px 10px black;
-    flex-wrap: wrap;
-}
-
-
-#svar-btn {
+    width: 600px;
+    box-shadow: var(--skygge);
     display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
+.sporsmal p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
-#svar-btn button {
-    padding: 15px 30px;
-    font-size: 18px;
-    border: 2px solid white;
-    background: white;
-    box-shadow: 0 2px 10px black;
+.sporsmal input {
+   
+    
+}
+
+section button {
+    width: 300px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: var(--farge-hoved);
+    border: solid white 2px;
     cursor: pointer;
-
+    box-shadow: 0 2px 10px black;
 }
 
+section button:hover {
+    background-color: var(--farge-aksent);
+    color: white;
+}
+
+#resultat {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,74 +1,78 @@
- * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alata&family=Dancing+Script:wght@400..700&family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
- img {
-     width: 100%;
- }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
- a {
-     color: inherit;
-     text-decoration: none;
- }
 
- :root {
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+:root {
     --farge-hoved: #c6dcdd;
     --farge-aksent: #5797a4;
     --farge-tekst: #222222;
     --farge-hvit: #ffffff;
     --farge-rod: rgba(255, 85, 85, 0.7);
-    --skygge: 0 2px 10px rgba(0,0,0,0.4);
+    --skygge: 0 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 
- body {
-     background-image: url(bilder/bakgrunnsbilde.jpg);
-     background-size: cover;
-     background-attachment: fixed;
-     font-family: 'Inter', 'Lucida Sans', sans-serif;
-     color: var(--farge-tekst);
+body {
+    background-image: url(bilder/bakgrunnsbilde.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: var(--farge-tekst);
 
- }
+}
 
- header {
-     padding: 0 40px;
-     height: auto;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     flex-direction: column;
-     color: rgb(0, 0, 0);
+header {
+    padding: 0 40px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
 
- }
+}
 
- .logo {
-     font-size: 50px;
-     margin-top: 40%;
-     transform: perspective(1000px);
-     transition: transform 1s;
- }
+.logo {
+    font-size: 50px;
+    margin-top: 40%;
+    transform: perspective(1000px);
+    transition: transform 1s;
+}
 
- .logo:hover {
-     transform: rotateY(90deg) rotateX(90deg)
- }
+.logo:hover {
+    transform: rotateY(90deg) rotateX(90deg)
+}
 
- nav ul {
-     list-style: none;
-     display: flex;
-     gap: 100px;
-     align-items: center;
-     margin-top: 40px;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-top: 40px;
 
- }
+}
 
- nav a:hover {
-       color: var(--farge-aksent);
- }
+nav a:hover {
+    color: var(--farge-aksent);
+}
 
 
- footer {
+footer {
     background-color: white;
     display: flex;
     gap: 80px;
@@ -104,4 +108,77 @@
 .tc {
     width: 300px;
     font-size: 12px;
+}
+
+.hamburger {
+    display: none;
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 20px;
+     
+    }
+
+    .logo {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .hamburger {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+    }
+
+    nav.aktiv {
+        display: block;
+        display: flex;
+        justify-content: right;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+        background-color: white;
+        text-align: center;
+        margin-top: 0;
+        box-shadow: var(--skygge);
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 15px;
+        border-bottom: 1px solid #eee;
+    }
+
+    nav ul li a:hover {
+        background-color: var(--farge-hoved);
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+
+    .sign-up input {
+        width: 100%;
+    }
 }

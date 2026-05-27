@@ -1,4 +1,10 @@
 
+function toggle() {
+    let nav = document.querySelector("nav");
+    nav.classList.toggle("aktiv");
+}
+
+
 
 function sjekkIQ() {
     let poeng = document.querySelectorAll('input[value="riktig"]:checked').length;

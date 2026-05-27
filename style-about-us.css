@@ -38,3 +38,11 @@
   
 }
 
+@media (max-width: 768px) {
+
+   .section2{
+      height: auto;
+      flex-direction: column;
+      margin-bottom: 50px;
+   }
+}

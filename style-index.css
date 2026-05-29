@@ -109,27 +109,22 @@
  .start-knapp:hover {
      box-shadow: var(--farge-aksent)
  }
-
  .section2 {
-     height: 100vh;
-     display: grid;
-     grid-template-rows: repeat(2, 300px);
-     gap: 10px;
-     padding: 10px;
-     margin-bottom: 400px;
- }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    gap: 5px;
+    padding: 0;
+    margin-bottom: 200px;
+    height: auto;
+}
 
- .section2 img{
+.section2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
- }
+}
 
- .section2 img:nth-child(1) {
-    grid-column: span 2;
- }
-
- .section2 img:nth-child(4){
-    grid-column: span 4 ;
- }
- 
+.section2 img:nth-child(1) {
+    grid-row: span 2;
+}

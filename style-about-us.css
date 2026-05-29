@@ -31,10 +31,11 @@
  }
 
 .kort:hover .skjul-teksten{
-    display: block;
+    display: flex;
     background-color: var(--farge-hvit);
     padding: 20px;
     box-shadow: var(--skygge);
+    
   
 }
 

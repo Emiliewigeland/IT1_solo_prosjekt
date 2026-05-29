@@ -18,3 +18,5 @@ function sjekkIQ() {
 
     document.getElementById("resultat").innerText = "Du fikk " + poeng + " av 15 riktige. Din IQ er: " + iq;
 }
+
+// den skjekker hvor mange ganger noe har fått vlaue "riktig"
